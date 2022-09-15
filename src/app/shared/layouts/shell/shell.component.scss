@@ -2,4 +2,6 @@
 
 :host {
   @include Mix.cmp-host(true);
+  display: flex;
+  flex-flow: column nowrap;
 }

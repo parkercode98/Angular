@@ -1,0 +1,3023 @@
+{
+	"guid": "root________",
+	"title": "",
+	"index": 0,
+	"dateAdded": 1648824350742000,
+	"lastModified": 1662737713683000,
+	"id": 1,
+	"typeCode": 2,
+	"type": "text/x-moz-place-container",
+	"root": "placesRoot",
+	"children": [
+		{
+			"guid": "menu________",
+			"title": "menu",
+			"index": 0,
+			"dateAdded": 1648824350742000,
+			"lastModified": 1660871430910000,
+			"id": 2,
+			"typeCode": 2,
+			"type": "text/x-moz-place-container",
+			"root": "bookmarksMenuFolder",
+			"children": [
+				{
+					"guid": "qYYDyuHSUMP9",
+					"title": "Gold",
+					"index": 0,
+					"dateAdded": 1656712638641000,
+					"lastModified": 1659671864357000,
+					"id": 361,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "hT3w4xtATBfV",
+							"title": "The Most Useful Understanding of Objects Ever Made",
+							"index": 0,
+							"dateAdded": 1656712604088000,
+							"lastModified": 1656712638657000,
+							"id": 360,
+							"typeCode": 1,
+							"tags": "#gold",
+							"type": "text/x-moz-place",
+							"uri": "https://www.autohotkey.com/boards/viewtopic.php?t=54588"
+						}
+					]
+				},
+				{
+					"guid": "bBBTGpY_AwlS",
+					"title": "keyword tools - Explore - Google Trends",
+					"index": 1,
+					"dateAdded": 1659572110351000,
+					"lastModified": 1659572118151000,
+					"id": 403,
+					"typeCode": 1,
+					"iconUri": "https://ssl.gstatic.com/trends_nrtr/3045_RC01/favicon.ico",
+					"type": "text/x-moz-place",
+					"uri": "https://trends.google.com/trends/explore?q=keyword%20tools"
+				},
+				{
+					"guid": "menbOXMhgene",
+					"title": "StackBlitz",
+					"index": 2,
+					"dateAdded": 1660188065270000,
+					"lastModified": 1660188065270000,
+					"id": 466,
+					"typeCode": 1,
+					"iconUri": "https://c.staticblitz.com/assets/pwa-icon-f559737e5eae9b3544e5cc1291118bf758ee20873d496f1ce2052859fb3b72d6.png",
+					"type": "text/x-moz-place",
+					"uri": "https://stackblitz.com/"
+				}
+			]
+		},
+		{
+			"guid": "toolbar_____",
+			"title": "toolbar",
+			"index": 1,
+			"dateAdded": 1648824350742000,
+			"lastModified": 1662737713683000,
+			"id": 3,
+			"typeCode": 2,
+			"type": "text/x-moz-place-container",
+			"root": "toolbarFolder",
+			"children": [
+				{
+					"guid": "WsgqVcj6uuYz",
+					"title": "",
+					"index": 0,
+					"dateAdded": 1658266346413000,
+					"lastModified": 1659629114575000,
+					"id": 372,
+					"typeCode": 1,
+					"iconUri": "https://github.githubassets.com/favicons/favicon.svg",
+					"type": "text/x-moz-place",
+					"uri": "https://github.com/"
+				},
+				{
+					"guid": "I464E741lfEV",
+					"title": "Git",
+					"index": 1,
+					"dateAdded": 1659671787359000,
+					"lastModified": 1661557286843000,
+					"id": 413,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "xmmA3X72_Bqo",
+							"title": "BitBucket",
+							"index": 0,
+							"dateAdded": 1661555355484000,
+							"lastModified": 1661555367394000,
+							"id": 500,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "JM0d5T5WjHBT",
+									"title": "Bitbucket | Git solution for teams using Jira",
+									"index": 0,
+									"dateAdded": 1659050117770000,
+									"lastModified": 1661555367394000,
+									"id": 388,
+									"typeCode": 1,
+									"iconUri": "https://wac-cdn.atlassian.com/assets/img/favicons/bitbucket/favicon-16x16.png",
+									"type": "text/x-moz-place",
+									"uri": "https://bitbucket.org/product"
+								}
+							]
+						},
+						{
+							"guid": "nK4jVE2TmrM4",
+							"title": "GitHub",
+							"index": 1,
+							"dateAdded": 1661555249416000,
+							"lastModified": 1661557286843000,
+							"id": 498,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "SfNX2EBoiQ5E",
+									"title": "DownGit",
+									"index": 0,
+									"dateAdded": 1653593126621000,
+									"lastModified": 1661557286843000,
+									"id": 297,
+									"typeCode": 1,
+									"iconUri": "https://minhaskamal.github.io/DownGit/res/images/downgit.png",
+									"type": "text/x-moz-place",
+									"uri": "https://minhaskamal.github.io/DownGit/#/home"
+								}
+							]
+						},
+						{
+							"guid": "NcRrQHVdcJg1",
+							"title": "GitLab",
+							"index": 2,
+							"dateAdded": 1661555258539000,
+							"lastModified": 1661555370790000,
+							"id": 499,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "hxo_hWAn0k4k",
+									"title": "Why GitLab?",
+									"index": 0,
+									"dateAdded": 1659050159917000,
+									"lastModified": 1661555370790000,
+									"id": 389,
+									"typeCode": 1,
+									"iconUri": "https://about.gitlab.com/nuxt-images/ico/favicon-192x192.png?cache=2022041",
+									"type": "text/x-moz-place",
+									"uri": "https://about.gitlab.com/why-gitlab/"
+								}
+							]
+						}
+					]
+				},
+				{
+					"guid": "evDlwGiUvaq8",
+					"title": "",
+					"index": 2,
+					"dateAdded": 1653594038479000,
+					"lastModified": 1653594038479000,
+					"id": 299,
+					"typeCode": 3,
+					"type": "text/x-moz-place-separator"
+				},
+				{
+					"guid": "JmzSMlZNJ5lJ",
+					"title": "DevTools",
+					"index": 3,
+					"dateAdded": 1648825285905000,
+					"lastModified": 1661557409785000,
+					"id": 136,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "MROxYQaZSegv",
+							"title": "Snippits",
+							"index": 0,
+							"dateAdded": 1648826984493000,
+							"lastModified": 1648826988796000,
+							"id": 229,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "72xPWYguWSWR",
+									"title": "3Cols - Board",
+									"index": 0,
+									"dateAdded": 1648826335622000,
+									"lastModified": 1648826988796000,
+									"id": 179,
+									"typeCode": 1,
+									"tags": "#snip",
+									"iconUri": "https://3cols.com/assets/icons/apple-touch-icon.png",
+									"type": "text/x-moz-place",
+									"uri": "https://3cols.com/board/EvpfhO/9968/18344/37865",
+									"keyword": "snip",
+									"postData": null
+								}
+							]
+						},
+						{
+							"guid": "SxHPj2yN_7fK",
+							"title": "RegEx",
+							"index": 1,
+							"dateAdded": 1648826990744000,
+							"lastModified": 1651536207000000,
+							"id": 230,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "aM8YxZXKmzv5",
+									"title": "Regex Tester",
+									"index": 0,
+									"dateAdded": 1648825606361000,
+									"lastModified": 1648826996095000,
+									"id": 138,
+									"typeCode": 1,
+									"tags": "#regex",
+									"iconUri": "https://dpidudyah7i0b.cloudfront.net/favicon.ico",
+									"type": "text/x-moz-place",
+									"uri": "https://www.regextester.com/",
+									"keyword": "reg:test",
+									"postData": null
+								}
+							]
+						},
+						{
+							"guid": "0W_cA_tAm7mO",
+							"title": "Helpers",
+							"index": 2,
+							"dateAdded": 1649794920486000,
+							"lastModified": 1661557409785000,
+							"id": 280,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "Lw6jmYMeaNND",
+									"title": "Bundlephobia",
+									"index": 0,
+									"dateAdded": 1648827401995000,
+									"lastModified": 1651536207000000,
+									"id": 248,
+									"typeCode": 1,
+									"tags": "#tools",
+									"iconUri": "https://bundlephobia.com/apple-touch-icon.png",
+									"type": "text/x-moz-place",
+									"uri": "https://bundlephobia.com/"
+								}
+							]
+						},
+						{
+							"guid": "hAvSl30Xbkyd",
+							"title": "Blank",
+							"index": 3,
+							"dateAdded": 1659664657509000,
+							"lastModified": 1659671767593000,
+							"id": 409,
+							"typeCode": 1,
+							"tags": "blank",
+							"type": "text/x-moz-place",
+							"uri": "about:blank"
+						},
+						{
+							"guid": "cm43BQwO0Rho",
+							"title": "Aspect Ratio Calculator - Digital Rebellion",
+							"index": 4,
+							"dateAdded": 1660086679509000,
+							"lastModified": 1660326678560000,
+							"id": 443,
+							"typeCode": 1,
+							"iconUri": "https://www.digitalrebellion.com/img/favicon-180.png",
+							"type": "text/x-moz-place",
+							"uri": "https://www.digitalrebellion.com/webapps/aspectcalc?calc=aspect&res_w=1920&res_h=1080"
+						}
+					]
+				},
+				{
+					"guid": "Hp4-CmbrHD_D",
+					"title": "Front-Dev",
+					"index": 4,
+					"dateAdded": 1648825257310000,
+					"lastModified": 1662732304169000,
+					"id": 135,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "rxnD3QGDY5rQ",
+							"title": "HTML",
+							"index": 0,
+							"dateAdded": 1648828360465000,
+							"lastModified": 1653593794736000,
+							"id": 258,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "svg5Gs4L9R6h",
+									"title": "Reference",
+									"index": 0,
+									"dateAdded": 1648826840264000,
+									"lastModified": 1653593794736000,
+									"id": 219,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "QGMU_a2B6aXe",
+											"title": "HTML Reference",
+											"index": 0,
+											"dateAdded": 1648826847773000,
+											"lastModified": 1648826847773000,
+											"id": 220,
+											"typeCode": 1,
+											"tags": "#reference",
+											"type": "text/x-moz-place",
+											"uri": "https://www.w3schools.com/tags/ref_byfunc.asp",
+											"keyword": "ref:html",
+											"postData": null
+										}
+									]
+								}
+							]
+						},
+						{
+							"guid": "H9S2nz5mGrpT",
+							"title": "CSS",
+							"index": 1,
+							"dateAdded": 1648828355373000,
+							"lastModified": 1661557667253000,
+							"id": 257,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "XidzrtLouNzc",
+									"title": "Reference",
+									"index": 0,
+									"dateAdded": 1648826812971000,
+									"lastModified": 1661557445491000,
+									"id": 215,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "7KN-3YqCw7Y0",
+											"title": "CSS Reference",
+											"index": 0,
+											"dateAdded": 1648826822511000,
+											"lastModified": 1648826822511000,
+											"id": 216,
+											"typeCode": 1,
+											"tags": "#reference",
+											"type": "text/x-moz-place",
+											"uri": "https://www.w3schools.com/cssref/default.asp",
+											"keyword": "ref:css",
+											"postData": null
+										},
+										{
+											"guid": "zfUDI1QO3B0O",
+											"title": "How to organize CSS @ 9elements",
+											"index": 1,
+											"dateAdded": 1649689551679000,
+											"lastModified": 1661557445491000,
+											"id": 276,
+											"typeCode": 1,
+											"tags": "#css",
+											"type": "text/x-moz-place",
+											"uri": "https://9elements.com/css-rule-order/"
+										}
+									]
+								},
+								{
+									"guid": "hZyBY8gltlXE",
+									"title": "Animations",
+									"index": 1,
+									"dateAdded": 1648825937010000,
+									"lastModified": 1661557648392000,
+									"id": 152,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "crfAvolYlnox",
+											"title": "Animista - CSS Animations",
+											"index": 0,
+											"dateAdded": 1648825940605000,
+											"lastModified": 1648825947507000,
+											"id": 153,
+											"typeCode": 1,
+											"tags": "#animation",
+											"type": "text/x-moz-place",
+											"uri": "https://animista.net/",
+											"keyword": "css:animation",
+											"postData": null
+										},
+										{
+											"guid": "xN1L_o4nKr7X",
+											"title": "Rive - About Rive",
+											"index": 1,
+											"dateAdded": 1661180090481000,
+											"lastModified": 1661557648392000,
+											"id": 491,
+											"typeCode": 1,
+											"type": "text/x-moz-place",
+											"uri": "https://rive.app/"
+										}
+									]
+								},
+								{
+									"guid": "FFidOgW0RICw",
+									"title": "Scroll",
+									"index": 2,
+									"dateAdded": 1648831058397000,
+									"lastModified": 1653593808635000,
+									"id": 265,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "F2Ui1d8cy1rV",
+											"title": "CSS Scroll API",
+											"index": 0,
+											"dateAdded": 1648831072226000,
+											"lastModified": 1651536207000000,
+											"id": 266,
+											"typeCode": 1,
+											"type": "text/x-moz-place",
+											"uri": "https://github.com/RByers/css-houdini-drafts/blob/master/css-scroll-api/UseCases.md"
+										}
+									]
+								},
+								{
+									"guid": "rt1y8UlJnzdD",
+									"title": "CSS",
+									"index": 3,
+									"dateAdded": 1660871405572000,
+									"lastModified": 1661557667253000,
+									"id": 479,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "o1ozOELZ5Qkj",
+											"title": "Neumorphism/Soft UI CSS shadow generator",
+											"index": 0,
+											"dateAdded": 1660871424232000,
+											"lastModified": 1660871433846000,
+											"id": 480,
+											"typeCode": 1,
+											"tags": "#css",
+											"type": "text/x-moz-place",
+											"uri": "https://neumorphism.io/#e0e0e0"
+										},
+										{
+											"guid": "gwGD3oeFPfPH",
+											"title": "Neumorphic Elements and CSS Effects",
+											"index": 1,
+											"dateAdded": 1660871455868000,
+											"lastModified": 1660871487592000,
+											"id": 482,
+											"typeCode": 1,
+											"tags": "#neumorphic",
+											"type": "text/x-moz-place",
+											"uri": "https://uiverse.io/"
+										}
+									]
+								}
+							]
+						},
+						{
+							"guid": "iGPyvPKvl7S1",
+							"title": "JavaScript",
+							"index": 2,
+							"dateAdded": 1648828348138000,
+							"lastModified": 1661557495455000,
+							"id": 256,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "77903DnHFbAs",
+									"title": "jQuery.js",
+									"index": 0,
+									"dateAdded": 1648825784954000,
+									"lastModified": 1653593815428000,
+									"id": 147,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "3F9ZV6f5LXou",
+											"title": "Online jQuery Cheat Sheet",
+											"index": 0,
+											"dateAdded": 1648825764182000,
+											"lastModified": 1648825790723000,
+											"id": 144,
+											"typeCode": 1,
+											"tags": "#jquery",
+											"type": "text/x-moz-place",
+											"uri": "https://htmlcheatsheet.com/jquery/",
+											"keyword": "js:jq",
+											"postData": null
+										}
+									]
+								},
+								{
+									"guid": "trzrw16rOFTN",
+									"title": "React.js",
+									"index": 1,
+									"dateAdded": 1648826107532000,
+									"lastModified": 1653593815428000,
+									"id": 168,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "8d--FXUscORP",
+											"title": "Docs",
+											"index": 0,
+											"dateAdded": 1648828175771000,
+											"lastModified": 1648828192287000,
+											"id": 253,
+											"typeCode": 2,
+											"type": "text/x-moz-place-container",
+											"children": [
+												{
+													"guid": "JN3lY7ia6FEI",
+													"title": "React Docs",
+													"index": 0,
+													"dateAdded": 1648828192287000,
+													"lastModified": 1648828200724000,
+													"id": 254,
+													"typeCode": 1,
+													"tags": "#docs",
+													"iconUri": "https://reactjs.org/icons/icon-512x512.png?v=f4d46f030265b4c48a05c999b8d93791",
+													"type": "text/x-moz-place",
+													"uri": "https://reactjs.org/docs/getting-started.html",
+													"keyword": "doc:react",
+													"postData": null
+												}
+											]
+										},
+										{
+											"guid": "UD77_G9Iv6XI",
+											"title": "YouTube - React Portfolio Website Tutorial From Scratch",
+											"index": 1,
+											"dateAdded": 1648826116599000,
+											"lastModified": 1648826170778000,
+											"id": 169,
+											"typeCode": 1,
+											"tags": "#react",
+											"type": "text/x-moz-place",
+											"uri": "https://www.youtube.com/watch?v=G-Cr00UYokU&ab_channel=EGATOR",
+											"keyword": "js:react",
+											"postData": null
+										}
+									]
+								},
+								{
+									"guid": "8Vz1P_xqrkfL",
+									"title": "Vue.js",
+									"index": 2,
+									"dateAdded": 1648826373429000,
+									"lastModified": 1653593815428000,
+									"id": 182,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "f-WTGVaUcZJw",
+											"title": "Docs",
+											"index": 0,
+											"dateAdded": 1648826433001000,
+											"lastModified": 1648828155168000,
+											"id": 186,
+											"typeCode": 2,
+											"type": "text/x-moz-place-container",
+											"children": [
+												{
+													"guid": "LNW-kD2XuZ8y",
+													"title": "Vue Docs",
+													"index": 0,
+													"dateAdded": 1648828155168000,
+													"lastModified": 1648828162200000,
+													"id": 251,
+													"typeCode": 1,
+													"tags": "#docs",
+													"iconUri": "https://vuejs.org/logo.svg",
+													"type": "text/x-moz-place",
+													"uri": "https://vuejs.org/guide/introduction.html",
+													"keyword": "doc:vue",
+													"postData": null
+												},
+												{
+													"guid": "1qqnVyiwhGv8",
+													"title": "Installation | Vue.js",
+													"index": 1,
+													"dateAdded": 1648826437311000,
+													"lastModified": 1648826437311000,
+													"id": 187,
+													"typeCode": 1,
+													"tags": "#docs",
+													"type": "text/x-moz-place",
+													"uri": "https://v3.vuejs.org/guide/installation.html#vue-devtools"
+												}
+											]
+										},
+										{
+											"guid": "ARCI7jfqDYJE",
+											"title": "YouTube - Vue JS Crash Course",
+											"index": 1,
+											"dateAdded": 1648826390910000,
+											"lastModified": 1648826399119000,
+											"id": 183,
+											"typeCode": 1,
+											"tags": "#vue",
+											"type": "text/x-moz-place",
+											"uri": "https://www.youtube.com/watch?v=qZXt1Aom3Cs",
+											"keyword": "tut:vue",
+											"postData": null
+										}
+									]
+								},
+								{
+									"guid": "x9RkyMGopgIz",
+									"title": "Event Handlers",
+									"index": 3,
+									"dateAdded": 1650845565690000,
+									"lastModified": 1653593815428000,
+									"id": 290,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "oDYe7vQxU4XK",
+											"title": "EventHandlers",
+											"index": 0,
+											"dateAdded": 1648826029320000,
+											"lastModified": 1651536207000000,
+											"id": 161,
+											"typeCode": 1,
+											"tags": "#js",
+											"iconUri": "https://developer.mozilla.org/apple-touch-icon.6803c6f0.png",
+											"type": "text/x-moz-place",
+											"uri": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onhashchange",
+											"keyword": "js:events",
+											"postData": null
+										}
+									]
+								},
+								{
+									"guid": "Z3lbG6fk68sq",
+									"title": "Tools",
+									"index": 4,
+									"dateAdded": 1661557461735000,
+									"lastModified": 1661557465128000,
+									"id": 501,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "Ln-xHf_FuUwc",
+											"title": "JavaScript Keycode",
+											"index": 0,
+											"dateAdded": 1649794892685000,
+											"lastModified": 1661557465128000,
+											"id": 279,
+											"typeCode": 1,
+											"tags": "#js",
+											"iconUri": "https://fav.farm/%E2%8C%A8%EF%B8%8F",
+											"type": "text/x-moz-place",
+											"uri": "https://keycode.info/for/191"
+										}
+									]
+								},
+								{
+									"guid": "lgdCRTBpAms0",
+									"title": "How-To's",
+									"index": 5,
+									"dateAdded": 1661557472110000,
+									"lastModified": 1661557495455000,
+									"id": 502,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "h1xnN9PO4RzH",
+											"title": "Lazy-Load Images",
+											"index": 0,
+											"dateAdded": 1648828436555000,
+											"lastModified": 1661557492487000,
+											"id": 259,
+											"typeCode": 1,
+											"tags": "#guides",
+											"iconUri": "https://www.youtube.com/s/desktop/bf7ce318/img/favicon_144x144.png",
+											"type": "text/x-moz-place",
+											"uri": "https://www.youtube.com/watch?v=aUjBvuUdkhg&list=PL0vfts4VzfNjnCv7U_Y3QbJ6Y3z3b83Dx&index=2"
+										},
+										{
+											"guid": "NAg3yi6UgJhn",
+											"title": "Loops",
+											"index": 1,
+											"dateAdded": 1648828469486000,
+											"lastModified": 1661557494273000,
+											"id": 261,
+											"typeCode": 1,
+											"tags": "#guides",
+											"iconUri": "https://www.youtube.com/s/desktop/bf7ce318/img/favicon_144x144.png",
+											"type": "text/x-moz-place",
+											"uri": "https://www.youtube.com/watch?v=x7Xzvm0iLCI&list=PL0vfts4VzfNjnCv7U_Y3QbJ6Y3z3b83Dx&index=3&t=287s"
+										},
+										{
+											"guid": "_eQj7ihB_i2H",
+											"title": "Async",
+											"index": 2,
+											"dateAdded": 1648828488240000,
+											"lastModified": 1661557495455000,
+											"id": 263,
+											"typeCode": 1,
+											"tags": "#guides",
+											"type": "text/x-moz-place",
+											"uri": "https://www.youtube.com/watch?v=vn3tm0quoqE&list=PL0vfts4VzfNjnCv7U_Y3QbJ6Y3z3b83Dx&index=4&t=166s"
+										}
+									]
+								}
+							]
+						},
+						{
+							"guid": "hM5FN6VKZaDy",
+							"title": "3D",
+							"index": 3,
+							"dateAdded": 1648825966686000,
+							"lastModified": 1648825977480000,
+							"id": 156,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "3Ex6lpGl-h1l",
+									"title": "3D Website Creation",
+									"index": 0,
+									"dateAdded": 1648825977480000,
+									"lastModified": 1648825977480000,
+									"id": 157,
+									"typeCode": 1,
+									"tags": "#3d",
+									"type": "text/x-moz-place",
+									"uri": "https://www.youtube.com/watch?v=Q7AOvWpIVHU&ab_channel=Fireship",
+									"keyword": "tut:3d",
+									"postData": null
+								}
+							]
+						},
+						{
+							"guid": "v4T6AjsD1FlF",
+							"title": "Learn",
+							"index": 4,
+							"dateAdded": 1648826764387000,
+							"lastModified": 1648828043407000,
+							"id": 212,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "ypQ-0itcG05V",
+									"title": "W3Schools",
+									"index": 0,
+									"dateAdded": 1648826876997000,
+									"lastModified": 1648826881730000,
+									"id": 222,
+									"typeCode": 1,
+									"tags": "#learn",
+									"type": "text/x-moz-place",
+									"uri": "https://www.w3schools.com/",
+									"keyword": "w3",
+									"postData": null
+								},
+								{
+									"guid": "awYr4cIyc16c",
+									"title": "SoloLearn",
+									"index": 1,
+									"dateAdded": 1648826770321000,
+									"lastModified": 1648826770321000,
+									"id": 213,
+									"typeCode": 1,
+									"tags": "#guides",
+									"type": "text/x-moz-place",
+									"uri": "https://www.sololearn.com/profile/16871168"
+								}
+							]
+						},
+						{
+							"guid": "yOhDCdCHQN25",
+							"title": "Website Examples",
+							"index": 5,
+							"dateAdded": 1648825296290000,
+							"lastModified": 1661557827037000,
+							"id": 137,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "nDam-pGYTZEM",
+									"title": "Paperpillar",
+									"index": 0,
+									"dateAdded": 1648826731678000,
+									"lastModified": 1648826731678000,
+									"id": 210,
+									"typeCode": 1,
+									"tags": "#examples",
+									"type": "text/x-moz-place",
+									"uri": "https://paperpillar.com/",
+									"keyword": "ex:paper",
+									"postData": null
+								},
+								{
+									"guid": "WILISlAuUIlx",
+									"title": "Brittany Chiang",
+									"index": 1,
+									"dateAdded": 1648825671518000,
+									"lastModified": 1648825671518000,
+									"id": 141,
+									"typeCode": 1,
+									"tags": "#examples",
+									"iconUri": "https://brittanychiang.com/icons/icon-512x512.png?v=dedd91ab2778735e31d0a7ccbb422fb7",
+									"type": "text/x-moz-place",
+									"uri": "https://brittanychiang.com/",
+									"keyword": "ex:brit",
+									"postData": null
+								},
+								{
+									"guid": "8JvJh2odiure",
+									"title": "Portfolio",
+									"index": 2,
+									"dateAdded": 1648826457218000,
+									"lastModified": 1661557827037000,
+									"id": 190,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "ojRLb8oMsreV",
+											"title": "A Guide to Designing a Portfolio Website",
+											"index": 0,
+											"dateAdded": 1648826465100000,
+											"lastModified": 1648826469705000,
+											"id": 191,
+											"typeCode": 1,
+											"tags": "#guides",
+											"type": "text/x-moz-place",
+											"uri": "https://www.webfx.com/blog/web-design/portfolio-website-design-guide/"
+										}
+									]
+								}
+							]
+						},
+						{
+							"guid": "7h_hr1jQ0bbW",
+							"title": "Design",
+							"index": 6,
+							"dateAdded": 1648824949054000,
+							"lastModified": 1662161609553000,
+							"id": 131,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "yxgHX53ax-HO",
+									"title": "Blender",
+									"index": 0,
+									"dateAdded": 1648826259821000,
+									"lastModified": 1648826264542000,
+									"id": 176,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "ixfvsrg7c4zl",
+											"title": "Making a animated head in blender",
+											"index": 0,
+											"dateAdded": 1648826264542000,
+											"lastModified": 1648826270758000,
+											"id": 177,
+											"typeCode": 1,
+											"tags": "#3d",
+											"type": "text/x-moz-place",
+											"uri": "https://www.youtube.com/results?search_query=Making+a+animated+head+in+blender"
+										}
+									]
+								},
+								{
+									"guid": "QrXKxD2ak2SB",
+									"title": "Images",
+									"index": 1,
+									"dateAdded": 1648826937110000,
+									"lastModified": 1661557936403000,
+									"id": 225,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "wHyRG6umhL4p",
+											"title": "SVG",
+											"index": 0,
+											"dateAdded": 1648827161952000,
+											"lastModified": 1650133911923000,
+											"id": 243,
+											"typeCode": 2,
+											"type": "text/x-moz-place-container",
+											"children": [
+												{
+													"guid": "ERXPlv7Wgu97",
+													"title": "SVG Repo",
+													"index": 0,
+													"dateAdded": 1648827167557000,
+													"lastModified": 1648827167557000,
+													"id": 244,
+													"typeCode": 1,
+													"tags": "#image",
+													"type": "text/x-moz-place",
+													"uri": "https://www.svgrepo.com/svg/18373/sketched-gross-down-arrow"
+												}
+											]
+										},
+										{
+											"guid": "MU4YnfFZxpTD",
+											"title": "Icons",
+											"index": 1,
+											"dateAdded": 1648826058467000,
+											"lastModified": 1651536207000000,
+											"id": 164,
+											"typeCode": 2,
+											"type": "text/x-moz-place-container",
+											"children": [
+												{
+													"guid": "gYqShqvy0nHQ",
+													"title": "Icon8",
+													"index": 0,
+													"dateAdded": 1648827204142000,
+													"lastModified": 1648827242460000,
+													"id": 246,
+													"typeCode": 1,
+													"tags": "#icons",
+													"iconUri": "https://maxst.icons8.com/vue-static/landings/primary-landings/favs/icons8_fav_32%C3%9732.png",
+													"type": "text/x-moz-place",
+													"uri": "https://icons8.com/"
+												},
+												{
+													"guid": "sQ1PsGSqkVn-",
+													"title": "Iconizer",
+													"index": 1,
+													"dateAdded": 1648827107624000,
+													"lastModified": 1648827107624000,
+													"id": 240,
+													"typeCode": 1,
+													"tags": "#icons",
+													"type": "text/x-moz-place",
+													"uri": "https://icons8.com/iconizer/"
+												},
+												{
+													"guid": "YtLwN00aU3bK",
+													"title": "Shape.so",
+													"index": 2,
+													"dateAdded": 1648827100531000,
+													"lastModified": 1648827255056000,
+													"id": 239,
+													"typeCode": 1,
+													"tags": "#icons",
+													"iconUri": "https://shape.so/icons/icon-512x512.png?v=13271968904f01f6f2ed988885cf8281",
+													"type": "text/x-moz-place",
+													"uri": "https://shape.so/app/icons"
+												},
+												{
+													"guid": "-N72EwguMzXk",
+													"title": "Uicons",
+													"index": 3,
+													"dateAdded": 1648826063062000,
+													"lastModified": 1648826087651000,
+													"id": 165,
+													"typeCode": 1,
+													"tags": "#icons",
+													"iconUri": "https://media.flaticon.com/dist/min/img/apple-icon-152x152-precomposed.png",
+													"type": "text/x-moz-place",
+													"uri": "https://www.flaticon.com/uicons?word=meet"
+												},
+												{
+													"guid": "iUeBfNtQWzpe",
+													"title": "Flaticon",
+													"index": 4,
+													"dateAdded": 1650845718243000,
+													"lastModified": 1651536207000000,
+													"id": 291,
+													"typeCode": 1,
+													"iconUri": "https://media.flaticon.com/dist/min/img/apple-icon-152x152-precomposed.png",
+													"type": "text/x-moz-place",
+													"uri": "https://www.flaticon.com/"
+												}
+											]
+										},
+										{
+											"guid": "dpvwiS0mL8EF",
+											"title": "Free Imgs",
+											"index": 2,
+											"dateAdded": 1661557864141000,
+											"lastModified": 1661557936403000,
+											"id": 505,
+											"typeCode": 2,
+											"type": "text/x-moz-place-container",
+											"children": [
+												{
+													"guid": "_Llwg07bKlfa",
+													"title": "2.6 million+ Stunning Free Images to Use Anywhere - Pixabay",
+													"index": 0,
+													"dateAdded": 1661557936403000,
+													"lastModified": 1661557936403000,
+													"id": 506,
+													"typeCode": 1,
+													"iconUri": "https://pixabay.com/apple-touch-icon.png",
+													"type": "text/x-moz-place",
+													"uri": "https://pixabay.com/"
+												}
+											]
+										}
+									]
+								},
+								{
+									"guid": "L3W3WGx0mx9l",
+									"title": "3D",
+									"index": 2,
+									"dateAdded": 1648825999248000,
+									"lastModified": 1651775407915000,
+									"id": 160,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "Xf9w7By-Ryiy",
+											"title": "Shapefest™ - A massive library of free 3D shapes",
+											"index": 0,
+											"dateAdded": 1649034952504000,
+											"lastModified": 1649034952504000,
+											"id": 268,
+											"typeCode": 1,
+											"iconUri": "https://uploads-ssl.webflow.com/5f0e589021058152a1d327da/5f162b50c7051d52cc333f7a_Favicon.png",
+											"type": "text/x-moz-place",
+											"uri": "https://www.shapefest.com/"
+										},
+										{
+											"guid": "ZEkXv-u3yl0E",
+											"title": "Storytale Browse",
+											"index": 1,
+											"dateAdded": 1649035009686000,
+											"lastModified": 1649035009686000,
+											"id": 269,
+											"typeCode": 1,
+											"iconUri": "https://storytale.io/favicons/favicon-196.png",
+											"type": "text/x-moz-place",
+											"uri": "https://storytale.io/browse/?packs=true&searchText=slam"
+										},
+										{
+											"guid": "aAchuu-mowjU",
+											"title": "3D Hands gestures",
+											"index": 2,
+											"dateAdded": 1649035048261000,
+											"lastModified": 1649035048261000,
+											"id": 270,
+											"typeCode": 1,
+											"iconUri": "https://www.handz.design/assets/images/apple-touch-icon.png?v=f91891da",
+											"type": "text/x-moz-place",
+											"uri": "https://www.handz.design/"
+										},
+										{
+											"guid": "aDLk7FoZULO2",
+											"title": "Sketchfab",
+											"index": 3,
+											"dateAdded": 1651775393362000,
+											"lastModified": 1651775407915000,
+											"id": 294,
+											"typeCode": 1,
+											"iconUri": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/favicon/23f3318c19afda98ef952231b4b450c7-v2.png",
+											"type": "text/x-moz-place",
+											"uri": "https://sketchfab.com/"
+										}
+									]
+								},
+								{
+									"guid": "L_d8OFcXxxLa",
+									"title": "Colors",
+									"index": 3,
+									"dateAdded": 1648825859554000,
+									"lastModified": 1650133914723000,
+									"id": 149,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "-fiWwqVZRamV",
+											"title": "My Palettes",
+											"index": 0,
+											"dateAdded": 1648826673810000,
+											"lastModified": 1648826690137000,
+											"id": 207,
+											"typeCode": 2,
+											"type": "text/x-moz-place-container",
+											"children": [
+												{
+													"guid": "cqmUXjUahMph",
+													"title": "Midnight Blue",
+													"index": 0,
+													"dateAdded": 1648826664447000,
+													"lastModified": 1648826695962000,
+													"id": 206,
+													"typeCode": 1,
+													"tags": "#palettes",
+													"iconUri": "https://colorpalettes.net/wp-content/themes/colornew/favicon.ico",
+													"type": "text/x-moz-place",
+													"uri": "https://colorpalettes.net/color-palette-4214/"
+												}
+											]
+										},
+										{
+											"guid": "x4xd0vR74_LB",
+											"title": "Coolors Palette Maker",
+											"index": 1,
+											"dateAdded": 1648826626605000,
+											"lastModified": 1648826647834000,
+											"id": 204,
+											"typeCode": 1,
+											"tags": "#colors",
+											"iconUri": "https://coolors.co/assets/img/favicon.png",
+											"type": "text/x-moz-place",
+											"uri": "https://coolors.co/00243f-496a81-66999b-b3af8f-ffc482",
+											"keyword": "des:palette",
+											"postData": null
+										},
+										{
+											"guid": "VximkrvYVCTo",
+											"title": "Online Gradient Generator",
+											"index": 2,
+											"dateAdded": 1648825849210000,
+											"lastModified": 1648825864699000,
+											"id": 148,
+											"typeCode": 1,
+											"tags": "#colors",
+											"iconUri": "https://angrytools.com/include/img/apple-touch-icon.png",
+											"type": "text/x-moz-place",
+											"uri": "https://angrytools.com/gradient/",
+											"keyword": "des:gradient",
+											"postData": null
+										}
+									]
+								},
+								{
+									"guid": "d2rOHb87sKzn",
+									"title": "Shapes",
+									"index": 4,
+									"dateAdded": 1648826494107000,
+									"lastModified": 1661557599745000,
+									"id": 194,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "LXfkEhxephCi",
+											"title": "Kute.js - Blob Shapes",
+											"index": 0,
+											"dateAdded": 1648826559200000,
+											"lastModified": 1648826574082000,
+											"id": 200,
+											"typeCode": 1,
+											"tags": "#animation",
+											"type": "text/x-moz-place",
+											"uri": "https://www.jsdelivr.com/package/npm/kute.js",
+											"keyword": "des:blob",
+											"postData": null
+										},
+										{
+											"guid": "t9TBB9jkZd4m",
+											"title": "Haikei",
+											"index": 1,
+											"dateAdded": 1648826534867000,
+											"lastModified": 1648826557325000,
+											"id": 198,
+											"typeCode": 1,
+											"tags": "#shapes",
+											"type": "text/x-moz-place",
+											"uri": "https://app.haikei.app/",
+											"keyword": "des:shapes",
+											"postData": null
+										},
+										{
+											"guid": "FSvHiqFNvzZv",
+											"title": "Customize and apply backgrounds fast | SVG Backgrounds",
+											"index": 2,
+											"dateAdded": 1650133894952000,
+											"lastModified": 1650133914723000,
+											"id": 282,
+											"typeCode": 1,
+											"tags": "#pattern",
+											"iconUri": "https://www.svgbackgrounds.com/apple-touch-icon.png",
+											"type": "text/x-moz-place",
+											"uri": "https://www.svgbackgrounds.com/"
+										},
+										{
+											"guid": "SDOc7MhhzF-g",
+											"title": "Shape Divider App",
+											"index": 3,
+											"dateAdded": 1648826505730000,
+											"lastModified": 1661557599745000,
+											"id": 195,
+											"typeCode": 1,
+											"tags": "#shapes",
+											"type": "text/x-moz-place",
+											"uri": "https://www.shapedivider.app/"
+										}
+									]
+								},
+								{
+									"guid": "9g89BGVZaOXA",
+									"title": "Sites",
+									"index": 5,
+									"dateAdded": 1660871355724000,
+									"lastModified": 1662161609553000,
+									"id": 478,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "TlwiNPcolMvx",
+											"title": "Carbon",
+											"index": 0,
+											"dateAdded": 1649626202008000,
+											"lastModified": 1660871362453000,
+											"id": 275,
+											"typeCode": 1,
+											"iconUri": "https://carbon.now.sh/static/brand/apple-touch-icon.png",
+											"type": "text/x-moz-place",
+											"uri": "https://carbon.now.sh/"
+										},
+										{
+											"guid": "WCJL9XkTCSAi",
+											"title": "Figma",
+											"index": 1,
+											"dateAdded": 1648824986193000,
+											"lastModified": 1660871363570000,
+											"id": 132,
+											"typeCode": 1,
+											"tags": "#figma",
+											"iconUri": "https://static.figma.com/app/icon/1/favicon.svg",
+											"type": "text/x-moz-place",
+											"uri": "https://www.figma.com/files/recent?fuid=993700012739352884",
+											"keyword": "d:figma",
+											"postData": null
+										},
+										{
+											"guid": "lFW7PloAb6fa",
+											"title": "DeviantArt",
+											"index": 2,
+											"dateAdded": 1648826944004000,
+											"lastModified": 1661557895110000,
+											"id": 226,
+											"typeCode": 1,
+											"tags": "#image",
+											"type": "text/x-moz-place",
+											"uri": "https://www.deviantart.com/",
+											"keyword": "img:devian",
+											"postData": null
+										},
+										{
+											"guid": "ZXp-zNQTN0vv",
+											"title": "White Background Images for Desktop or Mobile | Cool Backgrounds",
+											"index": 3,
+											"dateAdded": 1661469205572000,
+											"lastModified": 1661557897491000,
+											"id": 495,
+											"typeCode": 1,
+											"iconUri": "https://coolbackgrounds.io/images/favicon-fe5a0ff5.png",
+											"type": "text/x-moz-place",
+											"uri": "https://coolbackgrounds.io/white-background/"
+										},
+										{
+											"guid": "ZJg7h_KYJ460",
+											"title": "Search | unDraw",
+											"index": 4,
+											"dateAdded": 1662116940241000,
+											"lastModified": 1662161609553000,
+											"id": 530,
+											"typeCode": 1,
+											"iconUri": "https://undraw.co/apple-touch-icon.png",
+											"type": "text/x-moz-place",
+											"uri": "https://undraw.co/search"
+										}
+									]
+								}
+							]
+						},
+						{
+							"guid": "q1OBDSP8xQvO",
+							"title": "Angular",
+							"index": 7,
+							"dateAdded": 1658441134208000,
+							"lastModified": 1662732304169000,
+							"id": 373,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "-nq3cbHFYvVu",
+									"title": "SideNav",
+									"index": 0,
+									"dateAdded": 1658459018229000,
+									"lastModified": 1658459434668000,
+									"id": 376,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "Ws-YX8FsYpgK",
+											"title": "Youtube | No",
+											"index": 0,
+											"dateAdded": 1658459048500000,
+											"lastModified": 1658459048500000,
+											"id": 377,
+											"typeCode": 1,
+											"iconUri": "https://www.youtube.com/s/desktop/cafdf09f/img/favicon_144x144.png",
+											"type": "text/x-moz-place",
+											"uri": "https://www.youtube.com/watch?v=8_Pm-aeQozA&t=154"
+										},
+										{
+											"guid": "eTXm0AdcuLHl",
+											"title": "sidenav/sidenav.component.scss at main · Angular-istic/sidenav",
+											"index": 1,
+											"dateAdded": 1658459434668000,
+											"lastModified": 1658459434668000,
+											"id": 378,
+											"typeCode": 1,
+											"iconUri": "https://github.githubassets.com/favicons/favicon.svg",
+											"type": "text/x-moz-place",
+											"uri": "https://github.com/Angular-istic/sidenav/blob/main/src/app/sidenav/sidenav.component.scss"
+										}
+									]
+								},
+								{
+									"guid": "l4WW2w2CSAKF",
+									"title": "Animations",
+									"index": 1,
+									"dateAdded": 1660184249549000,
+									"lastModified": 1662732295919000,
+									"id": 462,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "OV1jtjwj-Pf0",
+											"title": "Creating a Custom Angular Material Google Social Login Button | by Ole Ersoy | Medium",
+											"index": 0,
+											"dateAdded": 1660083922601000,
+											"lastModified": 1660184260477000,
+											"id": 441,
+											"typeCode": 1,
+											"iconUri": "https://miro.medium.com/fit/c/152/152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
+											"type": "text/x-moz-place",
+											"uri": "https://fireflysemantics.medium.com/creating-a-custom-angular-material-google-social-login-button-aee2fe376ea5"
+										},
+										{
+											"guid": "G9WzyYyVXQk7",
+											"title": "ngneat hot toast | The Best Angular Toast in Town",
+											"index": 1,
+											"dateAdded": 1662072749801000,
+											"lastModified": 1662732295919000,
+											"id": 528,
+											"typeCode": 1,
+											"iconUri": "https://avatars.githubusercontent.com/u/53073952?s=16&v=4",
+											"type": "text/x-moz-place",
+											"uri": "https://ngneat.github.io/hot-toast/"
+										}
+									]
+								},
+								{
+									"guid": "_tIMrsueTHKe",
+									"title": "Design",
+									"index": 2,
+									"dateAdded": 1660924310392000,
+									"lastModified": 1662732285646000,
+									"id": 488,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "Y1ROMV4iBzBP",
+											"title": "Material",
+											"index": 0,
+											"dateAdded": 1659910025034000,
+											"lastModified": 1662732285646000,
+											"id": 432,
+											"typeCode": 2,
+											"type": "text/x-moz-place-container",
+											"children": [
+												{
+													"guid": "HZuBqLHvI54g",
+													"title": "Create a responsive sidebar menu with Angular Material » Zoaib Khan",
+													"index": 0,
+													"dateAdded": 1660337637985000,
+													"lastModified": 1660337637985000,
+													"id": 472,
+													"typeCode": 1,
+													"iconUri": "https://zoaibkhan.com/wp-content/uploads/2020/07/cropped-icon-1-192x192.png",
+													"type": "text/x-moz-place",
+													"uri": "https://zoaibkhan.com/blog/create-a-responsive-sidebar-menu-with-angular-material/"
+												},
+												{
+													"guid": "ZlD2H8sxKKds",
+													"title": "Angular Responsive Design: Complete Guide",
+													"index": 1,
+													"dateAdded": 1659356620274000,
+													"lastModified": 1660924304859000,
+													"id": 390,
+													"typeCode": 1,
+													"iconUri": "https://blog.angular-university.io/content/images/size/w256h256/2020/12/angular.png",
+													"type": "text/x-moz-place",
+													"uri": "https://blog.angular-university.io/angular-responsive-design/"
+												},
+												{
+													"guid": "AStmdyhrbOr7",
+													"title": "Material Symbols and Icons - Google Fonts",
+													"index": 2,
+													"dateAdded": 1662069699272000,
+													"lastModified": 1662732285646000,
+													"id": 527,
+													"typeCode": 1,
+													"iconUri": "https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg",
+													"type": "text/x-moz-place",
+													"uri": "https://fonts.google.com/icons"
+												}
+											]
+										},
+										{
+											"guid": "P42LAPEV26jJ",
+											"title": "Theming",
+											"index": 1,
+											"dateAdded": 1660179474691000,
+											"lastModified": 1660924323694000,
+											"id": 461,
+											"typeCode": 2,
+											"type": "text/x-moz-place-container",
+											"children": [
+												{
+													"guid": "Iaj87nItMyL_",
+													"title": "Styles and Appearance in Angular Sidebar component - Syncfusion",
+													"index": 0,
+													"dateAdded": 1660179472995000,
+													"lastModified": 1660179482734000,
+													"id": 460,
+													"typeCode": 1,
+													"iconUri": "data:image/vnd.microsoft.icon;base64,AAABAAMAEBAAAAEAIABoBAAANgAAABAQAAABACAAaAQAAJ4EAAAgIAAAAQAgAKgQAAAGCQAAKAAAABAAAAAgAAAAAQAgAAAAAAAABAAAEgsAABILAAAAAAAAAAAAAHw2K+p8NivqfDYr6nIyJ9o4GBNhfDYr6nw2K+p8NivqUSMclVEjHJV8NivqfDYr6nw2K+ouHiFLAgwUAAIMFAB8Niv+fDYr/nw2K/58NivqOBgTYXw2K/58Niv+fDYr/lEjHJVRIxyVfDYr/nw2K/58Niv+Lh4hSwIMFAACDBQAfDYr/nw2K/58Niv+fDYr6jgYE2F8Niv+fDYr/nw2K/5RIxyVUSMclXw2K/58Niv+fDYr/i4eIUsCDBQAAgwUAHw2K/58Niv+fDYr/nw2K+o4GBNhfDYr/nw2K/58Niv+USMclVEjHJV8Niv+fDYr/nw2K/4uHiFLAgwUAAIMFAAuHiFLLh4hSy4eIUsuHiFLDw8UFi4eIUsuHiFLLh4hSxwbIzIcGyMyLh4hSy4eIUsuHiFLDw8UFgIMFAACDBQAfDYr/nw2K/58Niv+fDYr6jgYE2F8Niv+fDYr/nw2K/5RIxyVGHfHqR6U9/4elPf+HpT3/i4eIUsCDBQAAgwUAHw2K/58Niv+fDYr/nw2K+o4GBNhfDYr/nw2K/58Niv+USMclRh3x6kelPf+HpT3/h6U9/4uHiFLAgwUAAIMFAB8Niv+fDYr/nw2K/58NivqOBgTYXw2K/58Niv+fDYr/lEjHJUYd8epHpT3/h6U9/4elPf+Lh4hSwIMFAACDBQAfDYr/nw2K/58Niv+fDYr6jgYE2F8Niv+fDYr/nw2K/5RIxyVGHfHqR6U9vcelPb3HpT29y4eIUsCDBQAAgwUAC4eIUsuHiFLLh4hSy4eIUsPDxQWLh4hSy4eIUsuHiFLHBsjMg8PFBYPDxQWDw8UFg8PFBYCDBQAAgwUAAIMFAB8Niv+fDYr/nw2K/58NivqOBgTYXw2K/58Niv+fDYr/lEjHJUCDBQAAgwUAAIMFAAuHiFLEluYewIMFAACDBQAfDYr/nw2K/58Niv+fDYr6jgYE2F8Niv+fDYr/nw2K/5RIxyVAgwUAAIMFAAPTH9hHpT29x6U9/4PTH9hAgwUAHw2K/58Niv+fDYr/nw2K+o4GBNhfDYr/nw2K/58Niv+USMclQIMFAASW5h7HpT3/h6U9/4elPf+HpT29xwbIzJyMifacjIn2nIyJ9pwMSfLLh4hS3IyJ9pyMifacjIn2lEjHJUCDBQAD0x/YR6U9/4elPf+HpT3/h6U9/4SW5h7AgwUAAIMFAACDBQAAgwUAAIMFAACDBQAAgwUAAIMFAACDBQAAgwUAAIMFAASW5h7HpT3/h6U9/4SW5h7AgwUAAIMFAACDBQAAgwUAAIMFAACDBQAAgwUAAIMFAACDBQAAgwUAAIMFAACDBQAAgwUABh3x6kPTH9hAgwUAAIMFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAABAAAAAgAAAAAQAgAAAAAAAABAAAEgsAABILAAAAAAAAAAAAAHw2K+d8NivnfDYr53w2K9c4GBNXfDYr53w2K+d8NivnUCMcimQrI5p8NivnfDYr53w2K+c1FxJCAAAAAAAAAAB8Niv/fDYr/3w2K/98NivtOBgTYXw2K/98Niv/fDYr/1AjHJhkKyOqfDYr/3w2K/98Niv/NRcSSQAAAAAAAAAAfDYr/3w2K/98Niv/fDYr7TgYE2F8Niv/fDYr/3w2K/9QIxyYZCsjqnw2K/98Niv/fDYr/zUXEkkAAAAAAAAAAHw2K/98Niv/fDYr/3w2K+04GBNhfDYr/3w2K/98Niv/UCMcmGQrI6p8Niv/fDYr/3w2K/81FxJJAAAAAAAAAAA1FxJJNRcSSTUXEkk1FxJEGAoIHDUXEkk1FxJJNRcSSSIPDCsnFhcwMRwcSTEcHEkxHBxJFQwMFQAAAAAAAAAAfDYr/3w2K/98Niv/fDYr7TgYE2F8Niv/fDYr/3w2K/9QIxyYGHfHqh6U9/8elPf/HpT3/w0/aUkAAAAAAAAAAHw2K/98Niv/fDYr/3w2K+04GBNhfDYr/3w2K/98Niv/UCMcmBh3x6oelPf/HpT3/x6U9/8NP2lJAAAAAAAAAAB8Niv/fDYr/3w2K/98NivtOBgTYXw2K/98Niv/fDYr/1AjHJgYd8eqHpT3/x6U9/8elPf/DT9pSQAAAAAAAAAAfDYr+Xw2K/l8Niv5fDYr6DgYE158Niv5fDYr+Xw2K/lQIxyVGHfHph6U9/kelPf5HpT3+Q0/aUcAAAAAAAAAADUXEk81FxJPNRcSTzUXEkkYCggeNRcSTzUXEk81FxJPIg8MLwMRHAwEFSMSBBUjEgQVIxICCQ8FAAAAAAAAAAB8Niv/fDYr/3w2K/98NivtOBgTYXw2K/98Niv/fDYr/1AjHJgAAAAAAAAAAAAAAAALN1xBFGKkggAAAAAAAAAAfDYr/3w2K/98Niv/fDYr7TgYE2F8Niv/fDYr/3w2K/9QIxyYAAAAAAAAAAAORXNZHpP19x6U9/4PS3xjAAAAAHw2K/98Niv/fDYr/3w2K+04GBNhfDYr/3w2K/98Niv/UCMcmAAAAAARVI1vHpT3/R6U9/8elPf/HpT39wowUDxwMSfbcDEn23AxJ9twMSfLMhYRU3AxJ9twMSfbcDEn20gfGYMAAAAADkNvUB6U9vwelPf/HpT3/x6U9/8VZ6uQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASW5h7HpT3/x6U9/4TYKCHAQUIAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUIAxdwuqMRU4prAAECAQAAAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAHMAAABhAAAAQAAAAEAAAP/gAAD/4QAAKAAAACAAAABAAAAAAQAgAAAAAAAAEAAAEgsAABILAAAAAAAAAAAAAHw2K858NivOfDYrznw2K858NivOfDYrznw2K858NivLKxMPI0AcFld8NivOfDYrznw2K858NivOfDYrznw2K858NivOZy0klwIDBQJ8NiuZfDYrznw2K858NivOfDYrznw2K858NivOfDYrzlYlHlMAAQIAAAECAAABAgAAAQIAfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/srEw8sQBwWbHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/9nLSS7AgMFAnw2K718Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/ViUeZwABAgAAAQIAAAECAAABAgB8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr+ysTDyxAHBZsfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/2ctJLsCAwUCfDYrvXw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/9WJR5nAAECAAABAgAAAQIAAAECAHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv7KxMPLEAcFmx8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/Zy0kuwIDBQJ8Niu9fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/1YlHmcAAQIAAAECAAABAgAAAQIAfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/srEw8sQBwWbHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/9nLSS7AgMFAnw2K718Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/ViUeZwABAgAAAQIAAAECAAABAgB8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr+ysTDyxAHBZsfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/2ctJLsCAwUCfDYrvXw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/9WJR5nAAECAAABAgAAAQIAAAECAHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv7KxMPLEAcFmx8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/Zy0kuwIDBQJ8Niu9fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/1YlHmcAAQIAAAECAAABAgAAAQIAfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/srEw8sQBwWbHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/9nLSS7AgMFAnw2K718Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/ViUeZwABAgAAAQIAAAECAAABAgBeKSF5XikheV4pIXleKSF5XikheV4pIXleKSF5XikhdyEOCxUxFREzXikheV4pIXleKSF5XikheV4pIXleKSF5XikheU4iG1kCAwQBXikhWl4pIXleKSF5XikheV4pIXleKSF5XikheV4pIXlBHBcxAAECAAABAgAAAQIAAAECAAwFBBgMBQQYDAUEGAwFBBgMBQQYDAUEGAwFBBgMBQQYAwgMBAYDAgoMBQQYDAUEGAwFBBgMBQQYDAUEGAwFBBgMBQQYCgQDEgABAgADDhgSAw4YGAMOGBgDDhgYAw4YGAMOGBgDDhgYAw4YGAIKEAoAAQIAAAECAAABAgAAAQIAfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/srEw8sQBwWbHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/9nLSS7AgMFAh6U970elPf/HpT3/x6U9/8elPf/HpT3/x6U9/8elPf/FWaqZwABAgAAAQIAAAECAAABAgB8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr+ysTDyxAHBZsfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/2ctJLsCAwUCHpT3vR6U9/8elPf/HpT3/x6U9/8elPf/HpT3/x6U9/8VZqpnAAECAAABAgAAAQIAAAECAHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv7KxMPLEAcFmx8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/Zy0kuwIDBQIelPe9HpT3/x6U9/8elPf/HpT3/x6U9/8elPf/HpT3/xVmqmcAAQIAAAECAAABAgAAAQIAfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/srEw8sQBwWbHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/9nLSS7AgMFAh6U970elPf/HpT3/x6U9/8elPf/HpT3/x6U9/8elPf/FWaqZwABAgAAAQIAAAECAAABAgB8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr+ysTDyxAHBZsfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/2ctJLsCAwUCHpT3vR6U9/8elPf/HpT3/x6U9/8elPf/HpT3/x6U9/8VZqpnAAECAAABAgAAAQIAAAECAHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv7KxMPLEAcFmx8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/Zy0kuwIDBQIelPe9HpT3/x6U9/8elPf/HpT3/x6U9/8elPf/HpT3/xVmqmcAAQIAAAECAAABAgAAAQIAfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/srEw8sQBwWbHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/9nLSS7AgMFAh6U970elPf/HpT3/x6U9/8elPf/HpT3/x6U9/8elPf/FWaqZwABAgAAAQIAAAECAAABAgB8NivzfDYr83w2K/N8NivzfDYr83w2K/N8NivzfDYr7ysTDypAHBZmfDYr83w2K/N8NivzfDYr83w2K/N8NivzfDYr82ctJLICAwUCHpT3tB6U9/MelPfzHpT38x6U9/MelPfzHpT38x6U9/MVZqpiAAECAAABAgAAAQIAAAECACMPDCQjDwwkIw8MJCMPDCQjDwwkIw8MJCMPDCQjDwwkDAUEBhIIBg8jDwwkIw8MJCMPDCQjDwwkIw8MJCMPDCQjDwwkHQ0KGwABAgAJKkcbCSpHJAkqRyQJKkckCSpHJAkqRyQJKkckCSpHJAYdMQ8AAQIAAAECAAABAgAAAQIARx8ZeUcfGXlHHxl5Rx8ZeUcfGXlHHxl5Rx8ZeUcfGXcYCwgVJRANM0cfGXlHHxl5Rx8ZeUcfGXlHHxl5Rx8ZeUcfGXk7GhRZAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgB8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr+ysTDyxAHBZsfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/2ctJLsAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAckPCkVZqttAQcMAwABAgAAAQIAAAECAHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv7KxMPLEAcFmx8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/Zy0kuwABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgARVIxCHpT35B6U9/0VaK1pAAECAAABAgAAAQIAfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/srEw8sQBwWbHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/9nLSS7AAECAAABAgAAAQIAAAECAAABAgACAwUCEVGIXx6U9vIelPf/HpT3/x6S8/MNQW1LAAECAAABAgB8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr+ysTDyxAHBZsfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/2ctJLsAAQIAAAECAAABAgAAAQIAAwgMBBZttXselPf5HpT3/x6U9/8elPf/HpT3/x6T9ekMPGUqAAECAHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv7KxMPLEAcFmx8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/Zy0kuwABAgAAAQIAAAECAAMNFg0af9OkHpT3/h6U9/8elPf/HpT3/x6U9/8elPf/HpT3/x6U99YGHTAcfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/srEw8sQBwWbHw2K/98Niv/fDYr/3w2K/98Niv/fDYr/3w2K/9nLSS7AAECAAABAgAEER0IG4fhqx6U9/8elPf/HpT3/x6U9/8elPf/HpT3/x6U9/8elPf/HpT3/xqB2Lh8Niv/fDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr+ysTDyxAHBZsfDYr/3w2K/98Niv/fDYr/3w2K/98Niv/fDYr/2ctJLsAAQIAAAECAAIDBAEVaK1eHpT3/R6U9/8elPf/HpT3/x6U9/8elPf/HpT3/x6U9/8elPf/HpT3/mQsI7ZkLCO2ZCwjtmQsI7ZkLCO2ZCwjtmQsI7ZkLCOzIw8MHzQXEk1kLCO2ZCwjtmQsI7ZkLCO2ZCwjtmQsI7ZkLCO2UyQdhQABAgAAAQIAAAECAAIDBAEVabCCHpT3/B6U9/8elPf/HpT3/x6U9/8elPf/HpT3/x6U9/4ZftKrAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAEHCwcagdekHpT3/x6U9/8elPf/HpT3/x6U9/8elPf8GX3RjgQTIAkAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAYeMQ4ciOTCHpT3/x6U9/8elPf/HpT39RJZlW8AAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAYeMRwcieXaHpT3/x6U9+oSV5JNAgMFAgABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAAABAgAAAQIAAAECAA1BbTcdkPHMCzVYNQABAgAAAQIAAAECAAABAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+													"type": "text/x-moz-place",
+													"uri": "https://ej2.syncfusion.com/angular/documentation/sidebar/style/#customizing-the-backdrop-of-the-sidebar"
+												},
+												{
+													"guid": "-qshQJUjHnhI",
+													"title": "Material Theme Builder – Figma",
+													"index": 1,
+													"dateAdded": 1660184392963000,
+													"lastModified": 1660184392963000,
+													"id": 465,
+													"typeCode": 1,
+													"type": "text/x-moz-place",
+													"uri": "https://www.figma.com/file/qGqphGewDxLWd28Volkx2W/Material-Theme-Builder-(Community)?node-id=0%3A1"
+												},
+												{
+													"guid": "aWszfbwipTEc",
+													"title": "Material Design 3",
+													"index": 2,
+													"dateAdded": 1660184376834000,
+													"lastModified": 1660184395176000,
+													"id": 464,
+													"typeCode": 1,
+													"type": "text/x-moz-place",
+													"uri": "https://m3.material.io/"
+												},
+												{
+													"guid": "e14sj5UbUXlx",
+													"title": "Material Design Theme & Palette Color Generator",
+													"index": 3,
+													"dateAdded": 1659910019064000,
+													"lastModified": 1660184396971000,
+													"id": 431,
+													"typeCode": 1,
+													"type": "text/x-moz-place",
+													"uri": "http://mcg.mbitson.com/#!?mcgpalette0=%233f51b5"
+												}
+											]
+										}
+									]
+								},
+								{
+									"guid": "RwoBkKkiKf7L",
+									"title": "Examples",
+									"index": 3,
+									"dateAdded": 1660924246253000,
+									"lastModified": 1660924258790000,
+									"id": 486,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "5BH_0QYqU_ah",
+											"title": "Example applications",
+											"index": 0,
+											"dateAdded": 1660196329768000,
+											"lastModified": 1660924253160000,
+											"id": 467,
+											"typeCode": 1,
+											"iconUri": "https://angular.io/assets/images/favicons/favicon-194x194.png",
+											"type": "text/x-moz-place",
+											"uri": "https://angular.io/guide/example-apps-list"
+										},
+										{
+											"guid": "7JUKw5r81vWA",
+											"title": "In-Depth AngularJS Tutorials for 2022 | egghead.io",
+											"index": 1,
+											"dateAdded": 1660054869369000,
+											"lastModified": 1660924258790000,
+											"id": 439,
+											"typeCode": 1,
+											"type": "text/x-moz-place",
+											"uri": "https://egghead.io/q/angularjs"
+										}
+									]
+								},
+								{
+									"guid": "B-l3jotGuf9J",
+									"title": "TypeScript",
+									"index": 4,
+									"dateAdded": 1660924285159000,
+									"lastModified": 1660924295988000,
+									"id": 487,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "YHmOpEKMpjYn",
+											"title": "TypeScript Cheatsheet - CyanHall.com",
+											"index": 0,
+											"dateAdded": 1657119899269000,
+											"lastModified": 1660924295988000,
+											"id": 366,
+											"typeCode": 1,
+											"iconUri": "https://www.cyanhall.com/apple-touch-icon.png",
+											"type": "text/x-moz-place",
+											"uri": "https://www.cyanhall.com/cheatsheet/13.typescript-cheatsheet/"
+										}
+									]
+								},
+								{
+									"guid": "G1VnzULcZF1R",
+									"title": "Auth",
+									"index": 5,
+									"dateAdded": 1660924234713000,
+									"lastModified": 1661790787384000,
+									"id": 485,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "cuhtcUmxvttV",
+											"title": "Full Angular 14 Firebase Authentication Tutorial Example - positronX.io",
+											"index": 0,
+											"dateAdded": 1660713181201000,
+											"lastModified": 1660924240896000,
+											"id": 473,
+											"typeCode": 1,
+											"iconUri": "https://www.positronx.io/wp-content/themes/positronx/android-icon-192x192.png",
+											"type": "text/x-moz-place",
+											"uri": "https://www.positronx.io/full-angular-firebase-authentication-system/"
+										},
+										{
+											"guid": "BWc-MkTgd88A",
+											"title": "angularx-social-login - npm",
+											"index": 1,
+											"dateAdded": 1660084280233000,
+											"lastModified": 1660924242484000,
+											"id": 442,
+											"typeCode": 1,
+											"iconUri": "https://static.npmjs.com/1996fcfdf7ca81ea795f67f093d7f449.png",
+											"type": "text/x-moz-place",
+											"uri": "https://www.npmjs.com/package/angularx-social-login"
+										},
+										{
+											"guid": "f8FeOrez_eA5",
+											"title": "Example angular 13 component | Techiediaries",
+											"index": 2,
+											"dateAdded": 1661790787384000,
+											"lastModified": 1661790787384000,
+											"id": 507,
+											"typeCode": 1,
+											"iconUri": "https://www.techiediaries.com/assets/images/logo.png",
+											"type": "text/x-moz-place",
+											"uri": "https://www.techiediaries.com/examples/angular-13/component/"
+										}
+									]
+								},
+								{
+									"guid": "hQ3oq4evpArA",
+									"title": "Logic",
+									"index": 6,
+									"dateAdded": 1660924352250000,
+									"lastModified": 1662732304169000,
+									"id": 489,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "IgjyoAgy9HRr",
+											"title": "Pipes",
+											"index": 0,
+											"dateAdded": 1659708774141000,
+											"lastModified": 1660924362869000,
+											"id": 426,
+											"typeCode": 2,
+											"type": "text/x-moz-place-container"
+										},
+										{
+											"guid": "DeFxMIoYMn7-",
+											"title": "angular/angularfire: The official Angular library for Firebase.",
+											"index": 1,
+											"dateAdded": 1661923722079000,
+											"lastModified": 1662732304169000,
+											"id": 521,
+											"typeCode": 1,
+											"iconUri": "https://github.githubassets.com/favicons/favicon.svg",
+											"type": "text/x-moz-place",
+											"uri": "https://github.com/angular/angularfire"
+										}
+									]
+								}
+							]
+						},
+						{
+							"guid": "5WLGYplqc3fi",
+							"title": "Fireship",
+							"index": 8,
+							"dateAdded": 1659671970768000,
+							"lastModified": 1661557716808000,
+							"id": 414,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "yysz5gwe_zRr",
+									"title": "Fireship",
+									"index": 0,
+									"dateAdded": 1659672156448000,
+									"lastModified": 1659672169026000,
+									"id": 416,
+									"typeCode": 1,
+									"tags": "blank",
+									"iconUri": "https://fireship.io/img/favicon.png",
+									"type": "text/x-moz-place",
+									"uri": "https://fireship.io/",
+									"keyword": "blank",
+									"postData": null
+								},
+								{
+									"guid": "NFtRtBqrH8NB",
+									"title": "Jeff Delaney",
+									"index": 1,
+									"dateAdded": 1659672182367000,
+									"lastModified": 1659672209099000,
+									"id": 418,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "dYVb5lHol89m",
+											"title": " Github",
+											"index": 0,
+											"dateAdded": 1659672193992000,
+											"lastModified": 1659672193992000,
+											"id": 419,
+											"typeCode": 1,
+											"iconUri": "https://github.com/fluidicon.png",
+											"type": "text/x-moz-place",
+											"uri": "https://github.com/codediodeio"
+										},
+										{
+											"guid": "hr-U5KAzVGh1",
+											"title": " Linkedin",
+											"index": 1,
+											"dateAdded": 1659672197268000,
+											"lastModified": 1659672197268000,
+											"id": 420,
+											"typeCode": 1,
+											"iconUri": "https://static-exp1.licdn.com/sc/h/akt4ae504epesldzj74dzred8",
+											"type": "text/x-moz-place",
+											"uri": "https://www.linkedin.com/in/jeff-delaney/"
+										},
+										{
+											"guid": "fpvgeVGf1c1r",
+											"title": " Medium",
+											"index": 2,
+											"dateAdded": 1659672200804000,
+											"lastModified": 1659672200804000,
+											"id": 421,
+											"typeCode": 1,
+											"iconUri": "https://miro.medium.com/fit/c/152/152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
+											"type": "text/x-moz-place",
+											"uri": "https://medium.com/@jeffdelaney"
+										},
+										{
+											"guid": "dNHlrUNXsVKV",
+											"title": " Portfolio",
+											"index": 3,
+											"dateAdded": 1659672203132000,
+											"lastModified": 1659672203132000,
+											"id": 422,
+											"typeCode": 1,
+											"iconUri": "https://jeffdelaney.me/assets/favicon.png",
+											"type": "text/x-moz-place",
+											"uri": "https://jeffdelaney.me/"
+										},
+										{
+											"guid": "0Fc_svNd_FkH",
+											"title": " Twitter",
+											"index": 4,
+											"dateAdded": 1659672205261000,
+											"lastModified": 1659672205261000,
+											"id": 423,
+											"typeCode": 1,
+											"type": "text/x-moz-place",
+											"uri": "https://twitter.com/Jeffdelaney23"
+										},
+										{
+											"guid": "IZb2RIAPmQyj",
+											"title": " Youtube",
+											"index": 5,
+											"dateAdded": 1659672207312000,
+											"lastModified": 1659672207312000,
+											"id": 424,
+											"typeCode": 1,
+											"type": "text/x-moz-place",
+											"uri": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA"
+										}
+									]
+								}
+							]
+						},
+						{
+							"guid": "9BTpRzXehuR9",
+							"title": "Typescript",
+							"index": 9,
+							"dateAdded": 1661906627822000,
+							"lastModified": 1661980193989000,
+							"id": 516,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "PelcFhGnBzdB",
+									"title": "Playgrounds",
+									"index": 0,
+									"dateAdded": 1661906646425000,
+									"lastModified": 1661980193989000,
+									"id": 517,
+									"typeCode": 2,
+									"type": "text/x-moz-place-container",
+									"children": [
+										{
+											"guid": "_0iYNgRCF1f_",
+											"title": "Update an object PARTIALLY",
+											"index": 0,
+											"dateAdded": 1661906660254000,
+											"lastModified": 1661980193989000,
+											"id": 518,
+											"typeCode": 1,
+											"tags": "#typescript",
+											"iconUri": "https://www.typescriptlang.org/icons/icon-512x512.png?v=8944a05a8b601855de116c8a56d3b3ae",
+											"type": "text/x-moz-place",
+											"uri": "https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgCoHsAm7kG8BQyyYwYANhAFzIDOYUoA5gNyHKYQ0IMAOJ6IanQYgWbeFDBD6TVgF98+GAFcQCfiGTKemOJAzYAFGCzpqB9ABpkMYBDKYaGAKo69VZAAU4k4HDIAPBYAfACUeGxQEGDKUJq4yAB0ySbY1smJtvaOLm6QyHLyiipqGlp5EBYAIhAQPEHIEAAekCCOyADyAEYAVhDqwYbovebW2rqQNNTevv5BYZSoEURRMXHIwz0AvAkZm5YZ4+40BczI+ApKqurAAuUTEPOGCD6j98fTPiRzqGHLRDZ0FBkM8BHR3vlQBDOOECAD4cgEGCwMgANYQACeyC20OQcBO6Ix6BgaFYCIBzx8AG1CQBdPEnOAgDHhHFHSY0zG0skAhSXJEgcGpdAARmx-xI5A8ACIgYwmcAAF4oDg0VHSyxsVXcYB8W6CZDShAUHyIsjKMCQKAa8RfagAcgA6gBROA+KAeqA8b08ACEvvtF1Y+AFNHQFESZHQjGMphFoWD7IgsewIuscPYnB1eoE1GlYAAFlB0AB3DYW4hQfEFm1ECRSZD2kzoMCBuQJxQhsHhiCR6Mp0UJoA"
+										},
+										{
+											"guid": "9uHcbp3yBnXz",
+											"title": "Partials",
+											"index": 1,
+											"dateAdded": 1661960574105000,
+											"lastModified": 1661960584569000,
+											"id": 522,
+											"typeCode": 1,
+											"iconUri": "https://www.typescriptlang.org/icons/icon-512x512.png?v=8944a05a8b601855de116c8a56d3b3ae",
+											"type": "text/x-moz-place",
+											"uri": "https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgApQPY2AGxQbwChlkBXYAEwH4AuZAZzClAHMBuY5CAWzl1oZNWHEhWD0ADjjgBPAHJxuEAY2Yh2nCQAsMYDAFUASgBkVQ9SOTYojBUrNqNJabcXK6q4Zp0h3gx5ZwFBRQEPT0Dl4AvoSECBggjMgSmNh4dOhYuCgAvMhEJOQUdADkJQA0nDx8OKUVnGKS0vJudZUk2roGJm2c1q5Kvc5wAxBDyT5jyGXtyEEhYfS9MXEJ9Bh4AHQ4GCwAFClZeACUsTCkIAhgwAlkEhRwkAA8mWkQAHwHqdkZ33jldwekCWaDgUGucBwLz+H2O+T6GCgyD28USYEBjxQoAxwLhBRIBNRSQA1hAZMg8qR7pi5vRkKSZFg0DDLATkYc3gBtBkAXVpcxAMjhlOpwO5ZJ5lhiK3Ol2utypQIgADEwWA9vgigD5qFwuVGlJZHYIOVqrhyv0wMbyi4rW5yp1fA6dHojMYor8jhA8ZwieigXBPW8KfktXNgrr6PrxIaWkpTbxzZbrbbrY6TZ1XSYYiRQmBSFAQMgAxwVn6yJQQwBZR5aTZQOAgCgYbh7Y6bPQAZXM+2OHHLZpwIZKWggOB2JQ4qzRgJDisxXy9APwg6ipyJGwg212e0V67Wm+3+w52VO06SioATHPRSq1Rqimvz4edvsr8h94kXzuTydYkA"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"guid": "QjMDKEegQy4L",
+					"title": "Back-Dev",
+					"index": 5,
+					"dateAdded": 1661557695710000,
+					"lastModified": 1661557726087000,
+					"id": 503,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "OCZLOMYNg3bG",
+							"title": "Java",
+							"index": 0,
+							"dateAdded": 1654537015754000,
+							"lastModified": 1661557706539000,
+							"id": 316,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "PBUs035PKfc3",
+									"title": "Programming in Java - Hands-on & Quiz Fuel Consumption Calculator Description",
+									"index": 0,
+									"dateAdded": 1654026394628000,
+									"lastModified": 1654537020094000,
+									"id": 310,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://cognizantee.tekstac.com/mod/vpl/view.php?id=11496&userid=85953"
+								}
+							]
+						},
+						{
+							"guid": "qEdNeQLV2zB8",
+							"title": "APIs",
+							"index": 1,
+							"dateAdded": 1660759045158000,
+							"lastModified": 1661557721396000,
+							"id": 475,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "WI7w2ETuphcl",
+									"title": "Random User Generator",
+									"index": 0,
+									"dateAdded": 1660759023521000,
+									"lastModified": 1660759045176000,
+									"id": 474,
+									"typeCode": 1,
+									"tags": "#api",
+									"type": "text/x-moz-place",
+									"uri": "https://randomuser.me/"
+								}
+							]
+						}
+					]
+				},
+				{
+					"guid": "c40d9WpW18qP",
+					"title": "",
+					"index": 6,
+					"dateAdded": 1660254453585000,
+					"lastModified": 1660254482906000,
+					"id": 469,
+					"typeCode": 3,
+					"type": "text/x-moz-place-separator"
+				},
+				{
+					"guid": "s-PlhwrmauKe",
+					"title": "Converters",
+					"index": 7,
+					"dateAdded": 1648827007912000,
+					"lastModified": 1661557739241000,
+					"id": 231,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "hFB0ougvyR5n",
+							"title": "iLovePDF ",
+							"index": 0,
+							"dateAdded": 1648827061639000,
+							"lastModified": 1648827061639000,
+							"id": 237,
+							"typeCode": 1,
+							"tags": "#convert",
+							"iconUri": "https://www.ilovepdf.com/img/app-icon.png",
+							"type": "text/x-moz-place",
+							"uri": "https://www.ilovepdf.com/"
+						},
+						{
+							"guid": "VdxXMitRZ_O1",
+							"title": "New Tab",
+							"index": 1,
+							"dateAdded": 1661472754881000,
+							"lastModified": 1661472754881000,
+							"id": 496,
+							"typeCode": 1,
+							"iconUri": "chrome://branding/content/icon32.png",
+							"type": "text/x-moz-place",
+							"uri": "about:newtab"
+						},
+						{
+							"guid": "49EmImiQDkRm",
+							"title": "ConvertICO",
+							"index": 2,
+							"dateAdded": 1648827050277000,
+							"lastModified": 1648827050277000,
+							"id": 235,
+							"typeCode": 1,
+							"tags": "#convert",
+							"type": "text/x-moz-place",
+							"uri": "https://convertico.com/",
+							"keyword": "ico",
+							"postData": null
+						},
+						{
+							"guid": "US9tp1LHmoJd",
+							"title": "SVG to ICO",
+							"index": 3,
+							"dateAdded": 1648827016901000,
+							"lastModified": 1648827048790000,
+							"id": 232,
+							"typeCode": 1,
+							"tags": "#convert",
+							"iconUri": "https://static.convertio.co/img/apple-touch-icon-180x180-precomposed.png",
+							"type": "text/x-moz-place",
+							"uri": "https://convertio.co/svg-ico/",
+							"keyword": "cvt:svg2ico",
+							"postData": null
+						}
+					]
+				},
+				{
+					"guid": "W7Qdnp4TBw7S",
+					"title": "",
+					"index": 8,
+					"dateAdded": 1653594092552000,
+					"lastModified": 1655133992041000,
+					"id": 302,
+					"typeCode": 3,
+					"type": "text/x-moz-place-separator"
+				},
+				{
+					"guid": "jELE8EpTH3Vy",
+					"title": "AHK",
+					"index": 9,
+					"dateAdded": 1654536962803000,
+					"lastModified": 1660326611317000,
+					"id": 311,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "ZPop1lK-Rj_M",
+							"title": "Automator",
+							"index": 0,
+							"dateAdded": 1654536998560000,
+							"lastModified": 1654537003778000,
+							"id": 315,
+							"typeCode": 1,
+							"iconUri": "https://i0.wp.com/www.the-automator.com/wp-content/uploads/2020/07/cropped-the-Automator_11_5p.png?fit=192%2C192&ssl=1",
+							"type": "text/x-moz-place",
+							"uri": "https://www.the-automator.com/scite-keyboard-shortcuts/"
+						},
+						{
+							"guid": "qzZUJ9dFtPRn",
+							"title": "AHK Tabs",
+							"index": 1,
+							"dateAdded": 1654577859835000,
+							"lastModified": 1660326611317000,
+							"id": 317,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "46mLAEgO0Tem",
+									"title": "SciTE",
+									"index": 0,
+									"dateAdded": 1654577859835000,
+									"lastModified": 1654577859835000,
+									"id": 318,
+									"typeCode": 1,
+									"tags": "#ahk",
+									"type": "text/x-moz-place",
+									"uri": "https://www.scintilla.org/SciTEDoc.html"
+								},
+								{
+									"guid": "IRGLSoFeYFT9",
+									"title": "Using environment variables - AutoHotkey Community",
+									"index": 1,
+									"dateAdded": 1654577859835000,
+									"lastModified": 1654577859835000,
+									"id": 319,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://www.autohotkey.com/boards/viewtopic.php?t=69254"
+								},
+								{
+									"guid": "9tBjOavP528m",
+									"title": "Image Following mouse - AutoHotkey Community",
+									"index": 2,
+									"dateAdded": 1654577859835000,
+									"lastModified": 1654577859835000,
+									"id": 320,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://www.autohotkey.com/boards/viewtopic.php?t=43803"
+								},
+								{
+									"guid": "q0UA5iHLhzY4",
+									"title": "LoadFile - Load script file as a separate process - AutoHotkey Community",
+									"index": 3,
+									"dateAdded": 1654577859835000,
+									"lastModified": 1654577859835000,
+									"id": 321,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6194"
+								},
+								{
+									"guid": "oy2sItBQkRDI",
+									"title": "SendData() - Sending data between scripts with SendMessage - Scripts and Functions - AutoHotkey Community",
+									"index": 4,
+									"dateAdded": 1656262809529000,
+									"lastModified": 1660326608034000,
+									"id": 349,
+									"typeCode": 1,
+									"iconUri": "http://ahkscript.org/favicon.ico",
+									"type": "text/x-moz-place",
+									"uri": "https://www.autohotkey.com/board/topic/77796-senddata-sending-data-between-scripts-with-sendmessage/"
+								},
+								{
+									"guid": "g6CJZ4zNYzFV",
+									"title": "AHK Speech Recognition",
+									"index": 5,
+									"dateAdded": 1656111650149000,
+									"lastModified": 1660326611317000,
+									"id": 346,
+									"typeCode": 1,
+									"iconUri": "https://www.youtube.com/s/desktop/f9ccd8c6/img/favicon_144x144.png",
+									"type": "text/x-moz-place",
+									"uri": "https://www.youtube.com/watch?v=HWMJJrfPWQk"
+								}
+							]
+						},
+						{
+							"guid": "XB8wT1Qgom3L",
+							"title": "AHK ACC",
+							"index": 2,
+							"dateAdded": 1654643537461000,
+							"lastModified": 1660326585744000,
+							"id": 322,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "XSpawXzb_8XH",
+									"title": "jeeswg's Acc tutorial (Microsoft Active Accessibility) (MSAA) - AutoHotkey Community",
+									"index": 0,
+									"dateAdded": 1654643562781000,
+									"lastModified": 1654643562781000,
+									"id": 323,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://www.autohotkey.com/boards/viewtopic.php?f=7&t=40590"
+								},
+								{
+									"guid": "gJ4hUCu8I3Fm",
+									"title": "jeeswg's homepage - AutoHotkey Community",
+									"index": 1,
+									"dateAdded": 1654645514571000,
+									"lastModified": 1655240771540000,
+									"id": 324,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://www.autohotkey.com/boards/viewtopic.php?p=144437#p144437"
+								},
+								{
+									"guid": "tr7BPJTuodF6",
+									"title": "jeeswg's Internet Explorer and HTML tutorial - AutoHotkey Community",
+									"index": 2,
+									"dateAdded": 1656376364078000,
+									"lastModified": 1656376364078000,
+									"id": 352,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://www.autohotkey.com/boards/viewtopic.php?f=7&t=31766"
+								},
+								{
+									"guid": "mg69fhYXIH0l",
+									"title": "autoHotkey advanced --- simple configuration for accessing window object acc Library",
+									"index": 3,
+									"dateAdded": 1659668256768000,
+									"lastModified": 1660326585744000,
+									"id": 412,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://programming.vip/docs/autohotkey-advanced-simple-configuration-for-accessing-window-object-acc-library.html"
+								}
+							]
+						},
+						{
+							"guid": "60gbzO2qwHyO",
+							"title": "LeftOff",
+							"index": 3,
+							"dateAdded": 1654833115980000,
+							"lastModified": 1656376342682000,
+							"id": 325,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "5YcP3Wi4a59i",
+									"title": "ToolTipFont / ToolTipColor - options for the ToolTip command - AutoHotkey Community",
+									"index": 0,
+									"dateAdded": 1654833115980000,
+									"lastModified": 1654833115980000,
+									"id": 326,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://www.autohotkey.com/boards/viewtopic.php?t=4777"
+								},
+								{
+									"guid": "X0dHtTX3L-Sx",
+									"title": "List of basic info form questions - Google Search",
+									"index": 1,
+									"dateAdded": 1654833115980000,
+									"lastModified": 1654833115980000,
+									"id": 327,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://www.google.com/search?q=List+of+basic+info+form+questions&client=firefox-b-1-d&sxsrf=ALiCzsbOYIpT9Fe2DdAXun7PTY7I4yXrYg:1654805536714&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiWl8CBl6H4AhVJlmoFHRpAA_MQ_AUoAXoECAEQAw&biw=1920&bih=919&dpr=1#imgrc=tVjwHrkzcz-OSM"
+								},
+								{
+									"guid": "Ew0LChqZkU0W",
+									"title": "1*dme9SMBieEja-4C2jzRdQA.png (PNG Image, 705 × 616 pixels)",
+									"index": 2,
+									"dateAdded": 1654833115980000,
+									"lastModified": 1654833115980000,
+									"id": 328,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://miro.medium.com/max/1400/1*dme9SMBieEja-4C2jzRdQA.png"
+								},
+								{
+									"guid": "bInp2GXyn7fl",
+									"title": "[Functions] - OnWin() - On_WinType_Event() - etc (SHELL HOOK) - AutoHotkey Community",
+									"index": 3,
+									"dateAdded": 1654833115980000,
+									"lastModified": 1654833115980000,
+									"id": 329,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://www.autohotkey.com/boards/viewtopic.php?t=60831"
+								}
+							]
+						},
+						{
+							"guid": "B6ZBjS6bngpi",
+							"title": "COM",
+							"index": 4,
+							"dateAdded": 1655174260212000,
+							"lastModified": 1656376330371000,
+							"id": 330,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "FYGaRsdTwNKz",
+									"title": "COM Reference1",
+									"index": 0,
+									"dateAdded": 1655174267245000,
+									"lastModified": 1656262634778000,
+									"id": 331,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://www.autohotkey.com/boards/viewtopic.php?t=77"
+								},
+								{
+									"guid": "gTXX1rryy5xl",
+									"title": "COM Object Reference [AutoHotkey v1.1+] - Scripts and Functions - AutoHotkey Community",
+									"index": 1,
+									"dateAdded": 1656262201323000,
+									"lastModified": 1656262201323000,
+									"id": 348,
+									"typeCode": 1,
+									"iconUri": "http://ahkscript.org/favicon.ico",
+									"type": "text/x-moz-place",
+									"uri": "https://www.autohotkey.com/board/topic/56987-com-object-reference-autohotkey-v11/"
+								}
+							]
+						},
+						{
+							"guid": "Ui94y5dHrW6t",
+							"title": "Scite",
+							"index": 5,
+							"dateAdded": 1655391175904000,
+							"lastModified": 1656259830799000,
+							"id": 333,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "YEFi6PyVIgJU",
+									"title": "[H2] sci() - SciLexer Class - AutoHotkey Community",
+									"index": 0,
+									"dateAdded": 1655391162649000,
+									"lastModified": 1655391175921000,
+									"id": 332,
+									"typeCode": 1,
+									"tags": "Scite",
+									"type": "text/x-moz-place",
+									"uri": "https://www.autohotkey.com/boards/viewtopic.php?t=73229"
+								},
+								{
+									"guid": "C2Fuf7S__Sfc",
+									"title": "SciTE.org",
+									"index": 1,
+									"dateAdded": 1654536977203000,
+									"lastModified": 1656259786851000,
+									"id": 312,
+									"typeCode": 1,
+									"tags": "#ahk",
+									"type": "text/x-moz-place",
+									"uri": "https://www.scintilla.org/SciTEDoc.html"
+								},
+								{
+									"guid": "d6gSnhHHIoJf",
+									"title": "Scintilla Documentation",
+									"index": 2,
+									"dateAdded": 1656259830799000,
+									"lastModified": 1656259830799000,
+									"id": 347,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://www.scintilla.org/ScintillaDoc.html"
+								}
+							]
+						}
+					]
+				},
+				{
+					"guid": "dVmNdL9BVNg5",
+					"title": "",
+					"index": 10,
+					"dateAdded": 1657119901831000,
+					"lastModified": 1657119901831000,
+					"id": 367,
+					"typeCode": 3,
+					"type": "text/x-moz-place-separator"
+				},
+				{
+					"guid": "2l3nCR4aSb5Q",
+					"title": "Files",
+					"index": 11,
+					"dateAdded": 1661554993071000,
+					"lastModified": 1661557748290000,
+					"id": 497,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "t-59P1qdbw0F",
+							"title": "TasteBuds",
+							"index": 0,
+							"dateAdded": 1660168288116000,
+							"lastModified": 1661555000966000,
+							"id": 453,
+							"typeCode": 1,
+							"iconUri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAjFJREFUeNqsU8uOElEQPffR3XQ3ONASdBJCSBxHos5%2B3Bg3rvkCv8PElS78gPkO%2FATjQoUdO2ftrJiRh6aneTb9sOpC4weMN6lcuFV16pxDIfI8x12OYIDhcPiu2Wx%2B%2FHF5CW1Z6Jyegt%2FTNEWSJIjjGFEUIQxDrFYrWFSzXC4%2FdLvd95pRKpXKy%2BpRFZ7nwaWo1%2BsGnQG2260BKJfLKJVKGI1GEEJw7ateryd0v993W63WEwjgxfn5obGYzgCbzcaEbdsIggDj8Riu6z6iUk9SYZMSx8W0LMsM%2FSKK75xnJlIq80anQXdbEp0OhcPJ0eiaJnGRMEyyPDsAKKUM9clkYoDo3SZJzzSdp0VSKYmfV1co%2Bz580kw5KDIM8RbRfEnUf1HzxtQyMAGcaGruTKczMzEIaqhKifV6jd%2BzGQQB5llunF%2FM52BizC2K5sYPYvZcu653tjOM9O93wnYc08gmkgg4VAxixfqFUJT36AYBZGd6PJkFCZnnlBxMp38gqIgLpZB0y4Nph18lyWh5FFbrOSxbl3V4G%2BVB7T4ajYYxTyuLtO%2BCvWGgJE1Mc7JNsJEhvgw%2FQV4fo%2F24nbEsX2u1d5sVyn8sJO0ZAQiIYnFh%2BxrfLz%2Fj29cBS%2FO14zg3i8XigW3ZkErDtmKoeM%2BAJGRMnXeEPGKf0nCD1ydvkDzU9Jbc6OpR7WIw6L8lQ%2B4pQ1%2FlPF0RGM9Ns91Wmptk0GfB4EJkt77vXYj%2F8m%2B8y%2FkrwABHbz2H9V68DQAAAABJRU5ErkJggg%3D%3D",
+							"type": "text/x-moz-place",
+							"uri": "file:///C:/Users/parke/Desktop/Coding/Web/Angular/TasteBudsApp/TasteBuds/"
+						},
+						{
+							"guid": "qt6EAgezeEUD",
+							"title": "Snippets",
+							"index": 1,
+							"dateAdded": 1660254430955000,
+							"lastModified": 1661555002027000,
+							"id": 468,
+							"typeCode": 1,
+							"iconUri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAjFJREFUeNqsU8uOElEQPffR3XQ3ONASdBJCSBxHos5%2B3Bg3rvkCv8PElS78gPkO%2FATjQoUdO2ftrJiRh6aneTb9sOpC4weMN6lcuFV16pxDIfI8x12OYIDhcPiu2Wx%2B%2FHF5CW1Z6Jyegt%2FTNEWSJIjjGFEUIQxDrFYrWFSzXC4%2FdLvd95pRKpXKy%2BpRFZ7nwaWo1%2BsGnQG2260BKJfLKJVKGI1GEEJw7ateryd0v993W63WEwjgxfn5obGYzgCbzcaEbdsIggDj8Riu6z6iUk9SYZMSx8W0LMsM%2FSKK75xnJlIq80anQXdbEp0OhcPJ0eiaJnGRMEyyPDsAKKUM9clkYoDo3SZJzzSdp0VSKYmfV1co%2Bz580kw5KDIM8RbRfEnUf1HzxtQyMAGcaGruTKczMzEIaqhKifV6jd%2BzGQQB5llunF%2FM52BizC2K5sYPYvZcu653tjOM9O93wnYc08gmkgg4VAxixfqFUJT36AYBZGd6PJkFCZnnlBxMp38gqIgLpZB0y4Nph18lyWh5FFbrOSxbl3V4G%2BVB7T4ajYYxTyuLtO%2BCvWGgJE1Mc7JNsJEhvgw%2FQV4fo%2F24nbEsX2u1d5sVyn8sJO0ZAQiIYnFh%2BxrfLz%2Fj29cBS%2FO14zg3i8XigW3ZkErDtmKoeM%2BAJGRMnXeEPGKf0nCD1ydvkDzU9Jbc6OpR7WIw6L8lQ%2B4pQ1%2FlPF0RGM9Ns91Wmptk0GfB4EJkt77vXYj%2F8m%2B8y%2FkrwABHbz2H9V68DQAAAABJRU5ErkJggg%3D%3D",
+							"type": "text/x-moz-place",
+							"uri": "file:///C:/Users/parke/Desktop/Coding/Web/DevTools/Snippets/"
+						}
+					]
+				},
+				{
+					"guid": "yRa276lwkkbf",
+					"title": "",
+					"index": 12,
+					"dateAdded": 1660254491109000,
+					"lastModified": 1660254494290000,
+					"id": 471,
+					"typeCode": 3,
+					"type": "text/x-moz-place-separator"
+				},
+				{
+					"guid": "PzdFvBln0WA-",
+					"title": "Tab Stash",
+					"index": 13,
+					"dateAdded": 1658514543887000,
+					"lastModified": 1661961966918000,
+					"id": 379,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "17upg22R1WJQ",
+							"title": "ng-firbaseui",
+							"index": 0,
+							"dateAdded": 1661961966871000,
+							"lastModified": 1661961974428000,
+							"id": 523,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "ZbNVPajAyi1W",
+									"title": "ngx-auth-firebaseui documentation",
+									"index": 0,
+									"dateAdded": 1661961966898000,
+									"lastModified": 1661961966898000,
+									"id": 524,
+									"typeCode": 1,
+									"iconUri": "https://ngx-auth-firebaseui.firebaseapp.com/doc/images/favicon.ico",
+									"type": "text/x-moz-place",
+									"uri": "https://ngx-auth-firebaseui.firebaseapp.com/doc/index.html"
+								},
+								{
+									"guid": "yqgxNbBpFs8w",
+									"title": "Getting Started | ngx-auth-firebaseui",
+									"index": 1,
+									"dateAdded": 1661961966904000,
+									"lastModified": 1661961966904000,
+									"id": 525,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://ngx-auth-firebaseui.firebaseapp.com/getting-started"
+								},
+								{
+									"guid": "-_yuxpVZIJkw",
+									"title": "AnthonyNahas/ngx-auth-firebaseui: Angular Material UI component for firebase authentication",
+									"index": 2,
+									"dateAdded": 1661961966918000,
+									"lastModified": 1661961966918000,
+									"id": 526,
+									"typeCode": 1,
+									"iconUri": "https://github.githubassets.com/favicons/favicon.svg",
+									"type": "text/x-moz-place",
+									"uri": "https://github.com/AnthonyNahas/ngx-auth-firebaseui"
+								}
+							]
+						},
+						{
+							"guid": "mYxfgtkQFbvt",
+							"title": "Good Session",
+							"index": 1,
+							"dateAdded": 1661830238313000,
+							"lastModified": 1661830246421000,
+							"id": 508,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "4e2nIEZQiGap",
+									"title": "understanding angular observables - YouTube",
+									"index": 0,
+									"dateAdded": 1661830238338000,
+									"lastModified": 1661830238338000,
+									"id": 509,
+									"typeCode": 1,
+									"iconUri": "https://www.youtube.com/s/desktop/ad42e6d3/img/favicon_144x144.png",
+									"type": "text/x-moz-place",
+									"uri": "https://www.youtube.com/results?search_query=understanding+angular+observables"
+								},
+								{
+									"guid": "tUtjXKuUbAPR",
+									"title": "Fireship - YouTube",
+									"index": 1,
+									"dateAdded": 1661830238346000,
+									"lastModified": 1661830238346000,
+									"id": 510,
+									"typeCode": 1,
+									"iconUri": "https://www.youtube.com/s/desktop/cc9e7915/img/favicon_144x144.png",
+									"type": "text/x-moz-place",
+									"uri": "https://www.youtube.com/c/Fireship/search"
+								},
+								{
+									"guid": "Xq09UmvweUGC",
+									"title": "Youtube | No",
+									"index": 2,
+									"dateAdded": 1661830238362000,
+									"lastModified": 1661830238362000,
+									"id": 511,
+									"typeCode": 1,
+									"iconUri": "https://www.youtube.com/s/desktop/5859c652/img/favicon_144x144.png",
+									"type": "text/x-moz-place",
+									"uri": "https://www.youtube.com/watch?v=ewcoEYS85Co&list=PL0vfts4VzfNjnCv7U_Y3QbJ6Y3z3b83Dx"
+								},
+								{
+									"guid": "isTNE0HGx-XW",
+									"title": "print",
+									"index": 3,
+									"dateAdded": 1661830238401000,
+									"lastModified": 1661830238401000,
+									"id": 512,
+									"typeCode": 1,
+									"iconUri": "https://github.githubassets.com/favicons/favicon.svg",
+									"type": "text/x-moz-place",
+									"uri": "https://gist.github.com/codediodeio/ed900f4cf5752b54160a82bc3ab2d9ea"
+								},
+								{
+									"guid": "uYiPma1EXR0e",
+									"title": "175-code-this-not-that-rxjs/7-switchMap.js at master · fireship-io/175-code-this-not-that-rxjs",
+									"index": 4,
+									"dateAdded": 1661830238452000,
+									"lastModified": 1661830238452000,
+									"id": 513,
+									"typeCode": 1,
+									"iconUri": "https://github.githubassets.com/favicons/favicon.svg",
+									"type": "text/x-moz-place",
+									"uri": "https://github.com/fireship-io/175-code-this-not-that-rxjs/blob/master/src/7-switchMap.js"
+								},
+								{
+									"guid": "qHl-bHPupbqH",
+									"title": "TypeScript: TS Playground - An online editor for exploring TypeScript and JavaScript",
+									"index": 5,
+									"dateAdded": 1661830238514000,
+									"lastModified": 1661830238514000,
+									"id": 514,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://www.typescriptlang.org/play?#code/MYewdgzgLgBKYDMCWBzGBeGBvAUDGATgKYCOArksQCYBcMABgGJJEA2VMSEhpF1AdPQA0eTmABuAQ1ZIqABUkQIAdxAFaMAOQBJCdNkwADopVqq-GAqWr1MALZloMAEZEYk2KyKLYANjgAFpIEksBQRATcrOAoQu5gHPBQkkhg7jBgZHauBPyaIvh2kgAeXmAoUAF09AAqAW7IbImSYJqwSSlpdmpulS2BwaHhkYIF9qllFVUMdQ0s7PaO7eDJqe5QXj4DIWEREKM4AL4A3Dg4qcMIoW4AqhAR2KL4FBrQBKkop-j4REVIrHQ3h8vt8qFxDKxJABPABykjsREBUHe5RB+EMARAUBANwASgAZJEoz5PGC-FKsABqESQjQ0zhAIE2YFOhzO8CcjgidDuD0wuG+MDBEAh0LhCLomgUBAA1hEAPqgLz5Unk-6S4yyiIAAXC0H4oDsKsFaqpNLpdCurHuY3RmOxeMJMAARAEoFBDBAaAB6b0hBIgBz3XII72SQxIb2GNTIlJQCDehFgb0AFgA7PwAFaGFDO20wF50ADKyI+AAoALIeAL8f1UQNlgCUjZEJzOOAQahgZa8sDlULEBeDjcego5TKI-GiKDL-cbrPbZwQZDAYSQ4CHEW0w0kzi8Za5BDoWEOI4F317GSIygAggQCBgYABtAC6aJgnYfZY5sCf-biUisGQRAvjAIAIDAADyziZkQYT8EQYClkQEAHsOZ6koKYDXneuSGI4ARllg-Z0P+MCAXQgHAaepJsoKxBQGQBBpNht73guS4rmuG4oEQUAAMLgMgM5vHQLRQhhgqXnqsCYN+QmoO43BYM+JEwEC5QvmJYADqeT5vKBijqaWqKkgxTFpDJRztsuq5QOuaT9uBZZIOEdh0PpJmxOJL4YZUBAgMoV5BQAoveahls6jBcfZG5gFinB2BCvyIeE5jOvO1m+nA4AQBOU4gDOvECQpM6aKkgGyFYpjqJozbHEAA"
+								},
+								{
+									"guid": "6WrVBC4xvCCb",
+									"title": "Object.entries() - JavaScript | MDN",
+									"index": 6,
+									"dateAdded": 1661830238642000,
+									"lastModified": 1661830238642000,
+									"id": 515,
+									"typeCode": 1,
+									"iconUri": "https://developer.mozilla.org/apple-touch-icon.6803c6f0.png",
+									"type": "text/x-moz-place",
+									"uri": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries"
+								}
+							]
+						},
+						{
+							"guid": "HmOZ_jpbMKte",
+							"title": "Angular Theming Master",
+							"index": 2,
+							"dateAdded": 1660179275106000,
+							"lastModified": 1660179285761000,
+							"id": 454,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "54OKuX2u_2hU",
+									"title": "The complete guide to Angular Material Themes | by Tomas Trajan | Medium",
+									"index": 0,
+									"dateAdded": 1660179275138000,
+									"lastModified": 1660179275138000,
+									"id": 455,
+									"typeCode": 1,
+									"iconUri": "https://miro.medium.com/fit/c/152/152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
+									"type": "text/x-moz-place",
+									"uri": "https://tomastrajan.medium.com/the-complete-guide-to-angular-material-themes-4d165a9d24d1"
+								},
+								{
+									"guid": "eJt-hfjCTzDE",
+									"title": "Theming your own components | Angular Material",
+									"index": 1,
+									"dateAdded": 1660179275152000,
+									"lastModified": 1660179275152000,
+									"id": 456,
+									"typeCode": 1,
+									"iconUri": "https://material.angular.io/assets/img/favicons/apple-touch-icon.png?v=8.2.3",
+									"type": "text/x-moz-place",
+									"uri": "https://material.angular.io/guide/theming-your-components"
+								},
+								{
+									"guid": "WJTHTRfajF55",
+									"title": "Custom Theme for Angular Material Components Series: Part 1 — Create a Theme | by Dharmen Shah | Medium",
+									"index": 2,
+									"dateAdded": 1660179275213000,
+									"lastModified": 1660179275213000,
+									"id": 457,
+									"typeCode": 1,
+									"iconUri": "https://miro.medium.com/fit/c/152/152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
+									"type": "text/x-moz-place",
+									"uri": "https://shhdharmen.medium.com/custom-theme-for-angular-material-components-series-create-a-theme-42229068271d"
+								},
+								{
+									"guid": "jmYa3t-yMtP4",
+									"title": "Custom Theme for Angular Material Components Series: Part 2 — Understand Theme | by Dharmen Shah | Medium",
+									"index": 3,
+									"dateAdded": 1660179275225000,
+									"lastModified": 1660179275225000,
+									"id": 458,
+									"typeCode": 1,
+									"iconUri": "https://miro.medium.com/fit/c/152/152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
+									"type": "text/x-moz-place",
+									"uri": "https://shhdharmen.medium.com/custom-theme-for-angular-material-components-series-understand-theme-1cb7f9e6efc5"
+								},
+								{
+									"guid": "U87KKXE3FFga",
+									"title": "Custom Theme for Angular Material Components Series: Part 3 — Apply Theme | by Dharmen Shah | Medium",
+									"index": 4,
+									"dateAdded": 1660179275238000,
+									"lastModified": 1660179275238000,
+									"id": 459,
+									"typeCode": 1,
+									"iconUri": "https://miro.medium.com/fit/c/152/152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
+									"type": "text/x-moz-place",
+									"uri": "https://shhdharmen.medium.com/custom-theme-for-angular-material-components-series-apply-theme-c12ce3bfa4a"
+								}
+							]
+						},
+						{
+							"guid": "pLXPsL4RV94U",
+							"title": "saved-2022-08-10T16:26:35.147Z",
+							"index": 3,
+							"dateAdded": 1660148795155000,
+							"lastModified": 1660148808131000,
+							"id": 444,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "A6f7KnqQTOpE",
+									"title": "Slide toggle | Angular Material",
+									"index": 0,
+									"dateAdded": 1660148795192000,
+									"lastModified": 1660148795192000,
+									"id": 445,
+									"typeCode": 1,
+									"iconUri": "https://material.angular.io/assets/img/favicons/apple-touch-icon.png?v=8.2.3",
+									"type": "text/x-moz-place",
+									"uri": "https://material.angular.io/components/slide-toggle/overview#use-with-angularforms"
+								},
+								{
+									"guid": "AqfC4evlP6L6",
+									"title": "Duplicate theming styles | Angular Material",
+									"index": 1,
+									"dateAdded": 1660148795203000,
+									"lastModified": 1660148795203000,
+									"id": 446,
+									"typeCode": 1,
+									"iconUri": "https://material.angular.io/assets/img/favicons/apple-touch-icon.png?v=8.2.3",
+									"type": "text/x-moz-place",
+									"uri": "https://material.angular.io/guide/duplicate-theming-styles"
+								},
+								{
+									"guid": "5qsN5bb0ZC-s",
+									"title": "Angular: Toggle Dark and Light Theme | by Dhrubo Dh | Medium",
+									"index": 2,
+									"dateAdded": 1660148795227000,
+									"lastModified": 1660148795227000,
+									"id": 447,
+									"typeCode": 1,
+									"iconUri": "https://miro.medium.com/fit/c/152/152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
+									"type": "text/x-moz-place",
+									"uri": "https://dhrubot.medium.com/angular-toggle-dark-and-light-theme-3809d7e96a61"
+								},
+								{
+									"guid": "miLGUsGCRrkm",
+									"title": "Angular - NgModel",
+									"index": 3,
+									"dateAdded": 1660148795235000,
+									"lastModified": 1660148795235000,
+									"id": 448,
+									"typeCode": 1,
+									"iconUri": "https://angular.io/assets/images/favicons/favicon-194x194.png",
+									"type": "text/x-moz-place",
+									"uri": "https://angular.io/api/forms/NgModel#using-ngmodel-on-a-standalone-control"
+								},
+								{
+									"guid": "e9Iq3wxdsm-v",
+									"title": "Youtube | No",
+									"index": 4,
+									"dateAdded": 1660148802247000,
+									"lastModified": 1660148808131000,
+									"id": 451,
+									"typeCode": 1,
+									"iconUri": "https://www.youtube.com/s/desktop/1422277c/img/favicon_144x144.png",
+									"type": "text/x-moz-place",
+									"uri": "https://www.youtube.com/watch?v=99T-zQLcluM&ab_channel=DecodedFrontend"
+								},
+								{
+									"guid": "d1chRkVWmEWt",
+									"title": "angular - Bind <mat slide toggle> using [(ngModel)] with a string value in HTML - Stack Overflow",
+									"index": 5,
+									"dateAdded": 1660148795307000,
+									"lastModified": 1660148795307000,
+									"id": 449,
+									"typeCode": 1,
+									"iconUri": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a",
+									"type": "text/x-moz-place",
+									"uri": "https://stackoverflow.com/questions/53812445/bind-mat-slide-toggle-using-ngmodel-with-a-string-value-in-html"
+								}
+							]
+						},
+						{
+							"guid": "azldBjTmAYmU",
+							"title": "Angular Material",
+							"index": 4,
+							"dateAdded": 1659975674590000,
+							"lastModified": 1659975683402000,
+							"id": 435,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "FKATnq84GG7j",
+									"title": "Schematics | Angular Material",
+									"index": 0,
+									"dateAdded": 1659975656083000,
+									"lastModified": 1659975679161000,
+									"id": 434,
+									"typeCode": 1,
+									"iconUri": "https://material.angular.io/assets/img/favicons/apple-touch-icon.png?v=8.2.3",
+									"type": "text/x-moz-place",
+									"uri": "https://material.angular.io/guide/schematics#navigation-schematic"
+								},
+								{
+									"guid": "LJ06OGGlfK1c",
+									"title": "Sidenav | Angular Material",
+									"index": 1,
+									"dateAdded": 1659975674605000,
+									"lastModified": 1659975674605000,
+									"id": 436,
+									"typeCode": 1,
+									"iconUri": "https://material.angular.io/assets/img/favicons/apple-touch-icon.png?v=8.2.3",
+									"type": "text/x-moz-place",
+									"uri": "https://material.angular.io/components/sidenav/overview"
+								},
+								{
+									"guid": "s2uXhh9y97n3",
+									"title": "Theming Angular Material | Angular Material",
+									"index": 2,
+									"dateAdded": 1659975674621000,
+									"lastModified": 1659975674621000,
+									"id": 437,
+									"typeCode": 1,
+									"iconUri": "https://material.angular.io/assets/img/favicons/apple-touch-icon.png?v=8.2.3",
+									"type": "text/x-moz-place",
+									"uri": "https://material.angular.io/guide/theming"
+								},
+								{
+									"guid": "eQNyagW8INsj",
+									"title": "Customizing Typography | Angular Material",
+									"index": 3,
+									"dateAdded": 1659975674636000,
+									"lastModified": 1659975674636000,
+									"id": 438,
+									"typeCode": 1,
+									"iconUri": "https://material.angular.io/assets/img/favicons/apple-touch-icon.png?v=8.2.3",
+									"type": "text/x-moz-place",
+									"uri": "https://material.angular.io/guide/typography"
+								}
+							]
+						},
+						{
+							"guid": "AdVKujfRkYXq",
+							"title": "Angular",
+							"index": 5,
+							"dateAdded": 1659496377657000,
+							"lastModified": 1659496412879000,
+							"id": 396,
+							"typeCode": 2,
+							"type": "text/x-moz-place-container",
+							"children": [
+								{
+									"guid": "q78DJI3hcRt1",
+									"title": "Angular Folder Structure. tl;dr | by Tom Cowley | Medium",
+									"index": 0,
+									"dateAdded": 1659496377707000,
+									"lastModified": 1659496377707000,
+									"id": 397,
+									"typeCode": 1,
+									"iconUri": "https://miro.medium.com/fit/c/152/152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
+									"type": "text/x-moz-place",
+									"uri": "https://medium.com/@motcowley/angular-folder-structure-d1809be95542"
+								},
+								{
+									"guid": "HB4HPVcpQpmX",
+									"title": "Angular Folder Structure Best Practices - TekTutorialsHub",
+									"index": 1,
+									"dateAdded": 1659496377724000,
+									"lastModified": 1659496377724000,
+									"id": 398,
+									"typeCode": 1,
+									"iconUri": "https://www.tektutorialshub.com/wp-content/uploads/2019/08/cropped-apple-touch-icon-192x192.png",
+									"type": "text/x-moz-place",
+									"uri": "https://www.tektutorialshub.com/angular/angular-folder-structure-best-practices/"
+								},
+								{
+									"guid": "2rECO2fLqFaN",
+									"title": "Angular Modules Best Practices 2021",
+									"index": 2,
+									"dateAdded": 1659496377747000,
+									"lastModified": 1659496377747000,
+									"id": 399,
+									"typeCode": 1,
+									"iconUri": "https://christiankohler.net/icons/icon-512x512.png?v=970b9568069e080b20c88e663061d7f3",
+									"type": "text/x-moz-place",
+									"uri": "https://christiankohler.net/angular-modules-best-practices-2021"
+								},
+								{
+									"guid": "SJg9QEz1FlUd",
+									"title": "Angular - Common Routing Tasks",
+									"index": 3,
+									"dateAdded": 1659496377760000,
+									"lastModified": 1659496377760000,
+									"id": 400,
+									"typeCode": 1,
+									"iconUri": "https://angular.io/assets/images/favicons/favicon-194x194.png",
+									"type": "text/x-moz-place",
+									"uri": "https://angular.io/guide/router"
+								},
+								{
+									"guid": "i08umDBU0mz5",
+									"title": "Angular - Introduction to modules",
+									"index": 4,
+									"dateAdded": 1659469657480000,
+									"lastModified": 1659496404244000,
+									"id": 394,
+									"typeCode": 1,
+									"iconUri": "https://angular.io/assets/images/favicons/favicon-194x194.png",
+									"type": "text/x-moz-place",
+									"uri": "https://angular.io/guide/architecture-modules"
+								},
+								{
+									"guid": "VYCZN4qKzLWG",
+									"title": "Angular - Built-in directives",
+									"index": 5,
+									"dateAdded": 1659469657500000,
+									"lastModified": 1659496401698000,
+									"id": 395,
+									"typeCode": 1,
+									"iconUri": "https://angular.io/assets/images/favicons/favicon-194x194.png",
+									"type": "text/x-moz-place",
+									"uri": "https://angular.io/guide/built-in-directives"
+								},
+								{
+									"guid": "hL4W1j4dU-Fn",
+									"title": "Angular - Feature modules",
+									"index": 6,
+									"dateAdded": 1659496377784000,
+									"lastModified": 1659496377784000,
+									"id": 401,
+									"typeCode": 1,
+									"iconUri": "https://angular.io/assets/images/favicons/favicon-194x194.png",
+									"type": "text/x-moz-place",
+									"uri": "https://angular.io/guide/feature-modules"
+								},
+								{
+									"guid": "_O3BchI8yJ3N",
+									"title": "Default Directory Structure — Angular Folder Structure documentation",
+									"index": 7,
+									"dateAdded": 1659496377813000,
+									"lastModified": 1659496377813000,
+									"id": 402,
+									"typeCode": 1,
+									"type": "text/x-moz-place",
+									"uri": "https://angular-folder-structure.readthedocs.io/en/latest/default.html"
+								}
+							]
+						}
+					]
+				},
+				{
+					"guid": "weXUg2eXhi29",
+					"title": "",
+					"index": 14,
+					"dateAdded": 1658441154512000,
+					"lastModified": 1660254464676000,
+					"id": 374,
+					"typeCode": 3,
+					"type": "text/x-moz-place-separator"
+				},
+				{
+					"guid": "n3PoC7gLbjaq",
+					"title": "Cool Sites",
+					"index": 15,
+					"dateAdded": 1661557759807000,
+					"lastModified": 1661557770535000,
+					"id": 504,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "C_TlYs57JZj8",
+							"title": "Wordtune pride",
+							"index": 0,
+							"dateAdded": 1661118085517000,
+							"lastModified": 1661557765284000,
+							"id": 490,
+							"typeCode": 1,
+							"type": "text/x-moz-place",
+							"uri": "https://www.wordtune.com/"
+						}
+					]
+				},
+				{
+					"guid": "3HdhZZGfU7cz",
+					"title": "Enablement / Enablement Immersion / Implementations / Team Projects / No Whammy / Pixelgram · GitLab",
+					"index": 16,
+					"dateAdded": 1662737709893000,
+					"lastModified": 1662737709893000,
+					"id": 532,
+					"typeCode": 1,
+					"iconUri": "https://git.work.cognizant.studio/assets/touch-icon-ipad-retina-8ebe416f5313483d9c1bc772b5bbe03ecad52a54eba443e5215a22caed2a16a2.png",
+					"type": "text/x-moz-place",
+					"uri": "https://git.work.cognizant.studio/enablement/e-remote-enablement/implementations/team-projects/no-whammy/pixelgram"
+				}
+			]
+		},
+		{
+			"guid": "unfiled_____",
+			"title": "unfiled",
+			"index": 3,
+			"dateAdded": 1648824350742000,
+			"lastModified": 1661555282315000,
+			"id": 5,
+			"typeCode": 2,
+			"type": "text/x-moz-place-container",
+			"root": "unfiledBookmarksFolder",
+			"children": [
+				{
+					"guid": "jGBSrsRW0j0t",
+					"title": "Custom Search Engines",
+					"index": 0,
+					"dateAdded": 1656459262021000,
+					"lastModified": 1659671880623000,
+					"id": 354,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "Ewy-9lEWREkN",
+							"title": "Search YouTube",
+							"index": 0,
+							"dateAdded": 1656459231321000,
+							"lastModified": 1656459262035000,
+							"id": 353,
+							"typeCode": 1,
+							"type": "text/x-moz-place",
+							"uri": "https://www.youtube.com/results?search_query=%s",
+							"keyword": "tube:",
+							"postData": null
+						}
+					]
+				},
+				{
+					"guid": "TgOfgAmjwoaw",
+					"title": "Last",
+					"index": 1,
+					"dateAdded": 1655397110173000,
+					"lastModified": 1659671926431000,
+					"id": 343,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "bwQzvaAItZbt",
+							"title": "Logitech Options issues when Secure Input is enabled – Logitech Support + Download",
+							"index": 0,
+							"dateAdded": 1656343908774000,
+							"lastModified": 1657064737147000,
+							"id": 350,
+							"typeCode": 1,
+							"iconUri": "https://theme.zdassets.com/theme_assets/9049502/13582ec0e36f7a35369913ccae326295b9750443.png",
+							"type": "text/x-moz-place",
+							"uri": "https://support.logi.com/hc/en-us/articles/360023189334-Logitech-Options-issues-when-Secure-Input-is-enabled"
+						},
+						{
+							"guid": "_nTr9JxJ12yd",
+							"title": "How to Use Logitech Flow for Mice and Keyboards Across Multiple Computers",
+							"index": 1,
+							"dateAdded": 1656343914401000,
+							"lastModified": 1657064738495000,
+							"id": 351,
+							"typeCode": 1,
+							"iconUri": "https://www.howtogeek.com/public/images/192x192.png",
+							"type": "text/x-moz-place",
+							"uri": "https://www.howtogeek.com/317962/how-to-use-logitech-flow-for-mice-and-keyboards-across-multiple-computers/"
+						},
+						{
+							"guid": "pb0BUe96-vgs",
+							"title": "Google Search Operators: The Complete List (42 Advanced Operators)",
+							"index": 2,
+							"dateAdded": 1656537097634000,
+							"lastModified": 1657064740620000,
+							"id": 356,
+							"typeCode": 1,
+							"iconUri": "https://ahrefs.com/blog/wp-content/themes/Ahrefs-4/images/favicons/apple-touch-icon.png",
+							"type": "text/x-moz-place",
+							"uri": "https://ahrefs.com/blog/google-advanced-search-operators/"
+						},
+						{
+							"guid": "HGECnHoy8lLY",
+							"title": "Youtube | No",
+							"index": 3,
+							"dateAdded": 1656551293879000,
+							"lastModified": 1657064741754000,
+							"id": 357,
+							"typeCode": 1,
+							"iconUri": "https://www.youtube.com/s/desktop/592786db/img/favicon_144x144.png",
+							"type": "text/x-moz-place",
+							"uri": "https://www.youtube.com/watch?v=Fd8kQ2H4ZSU"
+						},
+						{
+							"guid": "wtso-PNCcFJp",
+							"title": "Business Name Generator - Powered by AI - Namelix",
+							"index": 4,
+							"dateAdded": 1656616403058000,
+							"lastModified": 1657064743050000,
+							"id": 358,
+							"typeCode": 1,
+							"iconUri": "https://namelix.com/favicon32.gif",
+							"type": "text/x-moz-place",
+							"uri": "https://namelix.com/app/?keywords=Group+13"
+						},
+						{
+							"guid": "x6K3hmAn0Y4T",
+							"title": "iPhone 13 Mockup (Community) – Figma",
+							"index": 5,
+							"dateAdded": 1656658936747000,
+							"lastModified": 1657064744109000,
+							"id": 359,
+							"typeCode": 1,
+							"iconUri": "https://static.figma.com/app/icon/1/favicon.svg",
+							"type": "text/x-moz-place",
+							"uri": "https://www.figma.com/file/tDHw0l0GDeysHpY5nGdDyz/iPhone-13-Mockup-(Community)?node-id=39%3A425"
+						}
+					]
+				},
+				{
+					"guid": "WHINlm1xnZ1u",
+					"title": "YouTube - Build and Deploy a Fully Responsive Modern UI/UX Website in React JS",
+					"index": 2,
+					"dateAdded": 1648826155293000,
+					"lastModified": 1659671937134000,
+					"id": 174,
+					"typeCode": 1,
+					"tags": "#react",
+					"iconUri": "https://www.youtube.com/s/desktop/bf7ce318/img/favicon_144x144.png",
+					"type": "text/x-moz-place",
+					"uri": "https://www.youtube.com/watch?v=LMagNcngvcU&ab_channel=JavaScriptMastery"
+				},
+				{
+					"guid": "PmkjO7ukNE69",
+					"title": "Later",
+					"index": 3,
+					"dateAdded": 1649351591939000,
+					"lastModified": 1661555282315000,
+					"id": 272,
+					"typeCode": 2,
+					"type": "text/x-moz-place-container",
+					"children": [
+						{
+							"guid": "rwtL5zn-o2w4",
+							"title": "13:55 I'm building a SaaS Startup from scratch (SOLO) by Filip 30,805 views",
+							"index": 0,
+							"dateAdded": 1649351579221000,
+							"lastModified": 1649351591958000,
+							"id": 271,
+							"typeCode": 1,
+							"tags": "#later",
+							"type": "text/x-moz-place",
+							"uri": "https://www.youtube.com/watch?v=1VZPw6VPNaU"
+						}
+					]
+				}
+			]
+		},
+		{
+			"guid": "mobile______",
+			"title": "mobile",
+			"index": 4,
+			"dateAdded": 1648824350747000,
+			"lastModified": 1648824350768000,
+			"id": 6,
+			"typeCode": 2,
+			"type": "text/x-moz-place-container",
+			"root": "mobileFolder"
+		}
+	]
+}

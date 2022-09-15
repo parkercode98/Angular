@@ -1,0 +1,9 @@
+@use '../functions/functions' as Fnc;
+
+@mixin reveal($selectors...) {
+  @each $selector in $selectors {
+    #{$selector} {
+      border: 1px solid Fnc.random-color();
+    }
+  }
+}

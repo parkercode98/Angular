@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'styles/mixins' as Mix;
+@use 'styles/constants/colors' as Clr;
+@use 'styles/functions/functions' as Fnc;
+@use 'styles/debug/debug' as Dbg;
+
+
+
+
+//* ========= ROOT
+
+:root {
+  /* CSS Variables */
+  --font-color: white;
+  
+  /* Defaults */
+  color: var(--font-color);
+  
+}
+
+
+//* ========= GLOBAL MIXINS
+
+@include Mix.NoDefaults;
+
+/* Debug */
+// @include Dbg.reveal();
+
+
+//* ========= GLOBAL TAGS
+
+html,body {
+  height: 100%;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: Clr.$firefox-base;
+}
+
+
+//* ========= GLOBAL CLASSES
+
+main.main-content {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
