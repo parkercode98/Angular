@@ -1,9 +1,57 @@
 @use '../functions/functions' as Fnc;
+// @use '../../app/shared' as *;
+$debug: '' !default;
+
 
 @mixin reveal($selectors...) {
   @each $selector in $selectors {
     #{$selector} {
       border: 1px solid Fnc.random-color();
     }
+  }
+}
+
+
+// =============
+// =============
+
+// ==== Debug Functions ====
+@mixin all-debugs {
+  @include navbar.debugs;
+}
+
+@mixin updateOutput($items) {
+  body::before {
+    content: '#{$items}';
+    z-index: 9999;
+    position: absolute;
+    width: 60vw;
+    top: 30vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: rgb(198, 98, 215);
+    background-color: #0a0a0a;
+    border: 2px solid #c3c3c3;
+    font-family: 'Andale Mono',monospace;
+    display: block;
+    white-space: pre-line;
+    padding: 5vh;
+  }
+}
+
+@function appendDebug($d: '') {
+  $debug: $debug + '» #{inspect($d)} \A\A' !global;
+  @return $debug;
+}
+
+@mixin append($d) {
+  $debug: appendDebug($d);
+  @include updateOutput($debug);
+}
+
+
+@mixin map($map) {
+  @each $item in $map {
+    @include append($item); 
   }
 }

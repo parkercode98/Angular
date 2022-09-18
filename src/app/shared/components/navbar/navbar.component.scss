@@ -1,19 +1,20 @@
-@use 'src/styles/constants/colors' as Clr;
+@use 'sass:map';
 @use 'src/styles/mixins' as Mix;
 
 :host {
   @include Mix.cmp-host;
-  background: Clr.$firefox-dark;
 }
 
 .navbar {
   &__container {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row nowrap;
     width: 100%;
     height: clamp(55px, 3.5vw, 64px);
+    background: transparent;
     
     div {
       display: inline-flex;
@@ -21,13 +22,12 @@
       align-items: center;
       width: fit-content;
       height: 100%;
-      background: lighten(Clr.$firefox-base,10%);
       padding: 0 2ch;
-      cursor: pointer;
     }
   }
 }
 
-  
 
-
+.theme-toggle-container {
+  column-gap: 0px;
+}

@@ -1,49 +1,98 @@
+@use 'sass:map';
 @use 'styles/mixins' as Mix;
-@use 'styles/constants/colors' as Clr;
 @use 'styles/functions/functions' as Fnc;
-@use 'styles/debug/debug' as Dbg;
+@use 'styles/debug' as *;
+@use '@angular/material' as mat;
+
+@use 'styles/constants' as *;
+
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons+Round';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 
+// # Theme  //
+@include mat.core($fontConfig);
 
 
-//* ========= ROOT
+//! Theme Init
+@include theme-dark-theme;
 
-:root {
-  /* CSS Variables */
-  --font-color: white;
-  
-  /* Defaults */
-  color: var(--font-color);
-  
+.theme-alternate {
+  @include theme-light-theme;
 }
 
 
-//* ========= GLOBAL MIXINS
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//# Globals
+
+//* ========= GLOBAL MIXINS
 @include Mix.NoDefaults;
 
-/* Debug */
-// @include Dbg.reveal();
-
-
 //* ========= GLOBAL TAGS
-
-html,body {
-  height: 100%;
+html,
+body {
+	height: 100%;
 }
 
 body {
-  min-width: 100vw;
-  min-height: 100vh;
-  background: Clr.$firefox-base;
+	min-width: 100vw;
+	min-height: 100vh;
 }
 
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	outline: none;
+	border: none;
+	background: unset;
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
+}
 
 //* ========= GLOBAL CLASSES
 
 main.main-content {
-  display: block;
-  width: 100%;
-  height: 100%;
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 
+//* ========= GLOBAL FONTS
+html,
+body {
+	height: 100%;
+}
+body {
+	font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+//* ========= ROOT
+:root {
+	/* CSS Variables */
+	--font-color: white;
+
+	/* Defaults */
+	color: var(--font-color);
+}

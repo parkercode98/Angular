@@ -1,12 +1,15 @@
+import { NavRoutes } from '@core/constants/routes';
 import { Component, ElementRef, Input, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss']
+  styleUrls: ['./navbar.component.scss','./_navbar-theme.scss']
 })
 export class NavbarComponent implements OnInit {
   _title: string;
+  navRoutes = NavRoutes;
+  modelName: string;
   
   @Input()
   set title(value: string) {
@@ -22,6 +25,30 @@ export class NavbarComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    setTimeout(() => {
+      this.checkTheme();
+    }, 1);
   }
   
+  changeTheme(elemRef: any) {
+    const elem = elemRef as HTMLElement;
+    const child = elem.firstChild as HTMLElement;
+    const isDark = child.classList.contains('mat-checked');
+    if (!isDark) {
+      this.rndr.removeClass(elem, 'dark-theme');
+      this.rndr.addClass(elem, 'light-theme');
+      this.rndr.addClass(document.body, 'theme-alternate');
+    } else {
+      this.rndr.removeClass(elem, 'light-theme')
+      this.rndr.addClass(elem, 'dark-theme');
+      this.rndr.removeClass(document.body, 'theme-alternate');
+    }
+    console.log(elem, child, isDark)
+  }
+  
+  checkTheme() {
+    const classArr = document.body.classList;
+    const isLight = classArr.contains('theme-alternate');
+    console.log(isLight)
+  }
 }

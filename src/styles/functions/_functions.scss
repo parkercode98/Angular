@@ -1,3 +1,5 @@
+@use 'sass:map';
+
 @function random-color() {
   @return rgb(random(255), random(255), random(255));
 }

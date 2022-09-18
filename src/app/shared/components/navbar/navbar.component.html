@@ -1,11 +1,30 @@
 <div class="navbar__container">
-  <div class="navbar__container-start">
-    <span>{{ title }}</span>
+	<div class="navbar__container-start">
+		<span>{{ title }}</span>
+	</div>
+  
+  <spacer type="horizontal"></spacer>
+  
+  <div class="theme-toggle-container" data-state="off" #themer>
+    <mat-slide-toggle class="theme-toggle" (change)="changeTheme(themer)"></mat-slide-toggle>
   </div>
-  <div class="navbar__container-middle">
-    <span>Middle</span>
-  </div>
-  <div class="navbar__container-end">
-    <span>End</span>
-  </div>
+  
+	<div class="navbar__container-end">
+		<button mat-icon-button [matMenuTriggerFor]="menuRef">
+			<mat-icon>menu</mat-icon>
+		</button>
+		<mat-menu #menuRef="matMenu">
+			<div class="nav-item" *ngFor="let data of navRoutes">
+				<a
+					mat-menu-item
+					class="nav-link"
+          [routerLink]="[data.path]" 
+          routerLinkActive="router-link-active"
+          [routerLinkActiveOptions]="{exact: true}"
+				> 
+					{{ data.title }}
+				</a>
+			</div>
+		</mat-menu>
+	</div>
 </div>

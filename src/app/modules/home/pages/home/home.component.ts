@@ -1,3 +1,4 @@
+import { Bookmark, PurpleChild } from './../../../../data/schema/bookmarks';
 import { Component, OnInit } from '@angular/core';
 import * as data from '../../../../data/json/bookmark-json.json';
 
@@ -8,12 +9,32 @@ import * as data from '../../../../data/json/bookmark-json.json';
 })
 export class HomeComponent implements OnInit {
 
-  bookmarkData: any = (data as any).default;
+  bookmarkData: Bookmark = (data as any).default;
+  bookmarkFolders: PurpleChild[];
+  bookmarkLinks: PurpleChild[];
   
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-    console.log(data)
+    let bmks = this.bookmarkData;
+    let bmksChilds = bmks.children;
+    let tbData = bmksChilds.find(res => res.guid.includes('toolbar'));
+    let tbChilds = tbData.children;
+    let tbFolders = tbChilds.filter(child => isFolder(child));
+    let tbLinks = tbChilds.filter(child => (child.uri != undefined || null || ""))
+    this.bookmarkFolders = tbFolders;
+    this.bookmarkLinks = tbLinks;
+    
+    // console.log(tbLinks);
   }
 
+}
+
+function isFolder(obj: any) {
+  return (!Object.keys(obj).includes('uri')) && (obj.title != "");
+}
+
+function objWithValue(arrOfObj: any, aVal: string) {
+  let flat = arrOfObj.flat(99999);
+  return flat.find((res: any) => Object.values(res).includes(aVal));
 }

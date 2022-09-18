@@ -1,0 +1,95 @@
+@use '@angular/material' as mat;
+
+@use 'variables' as *;
+@use '../../app/shared' as *;
+@use '../../app' as *;
+
+
+
+@mixin set-css-variables {
+    // PRIMARY
+  body {
+    --primary-color: #1976d2;
+    --primary-lighter-color: #bad6f2;
+    --primary-darker-color: #0e59c1;
+    --text-primary-color: #{$light-primary-text};
+    --text-primary-lighter-color: #{$dark-primary-text};
+    --text-primary-darker-color: #{$light-primary-text};
+  }
+
+  // ACCENT
+  body {
+    --accent-color: #8e24aa;
+    --accent-lighter-color: #ddbde6;
+    --accent-darker-color: #711690;
+    --text-accent-color: #{$light-primary-text};
+    --text-accent-lighter-color: #{$dark-primary-text};
+    --text-accent-darker-color: #{$light-primary-text};
+  }
+
+  // WARN
+  body {
+    --warn-color: #ff0000;
+    --warn-lighter-color: #ffb3b3;
+    --warn-darker-color: #ff0000;
+    --text-warn-color: #{$light-primary-text};
+    --text-warn-lighter-color: #{$dark-primary-text};
+    --text-warn-darker-color: #{$light-primary-text};
+  }
+
+}
+
+
+/* CUSTOM COMPONENT THEMES */
+@mixin set-component-themes($theme) {
+  @include comp-navbar-theme($theme);
+  @include app-theme($theme); 
+}
+
+
+/* Dark Theme */
+@mixin dark-theme {
+  @include mat.all-component-themes($theme);
+  @include set-component-themes($theme);
+  $current-theme: $theme !global;
+  $current-background: $dark-background !global;
+}
+
+/* Light Theme */
+@mixin light-theme {
+  @include mat.all-component-themes($altTheme);
+  @include set-component-themes($altTheme);
+  $current-theme: $altTheme !global;
+  $current-background: $light-background !global;
+}
+
+
+
+
+
+
+
+
+
+// Specific component overrides, pieces that are not in line with the general theming
+
+// Handle buttons appropriately, with respect to line-height
+.mat-raised-button, .mat-stroked-button, .mat-flat-button {
+  padding: 0 1.15em;
+  margin: 0 .65em;
+  min-width: 3em;
+  line-height: 36.4px
+}
+
+.mat-standard-chip {
+  padding: .5em .85em;
+  min-height: 2.5em;
+}
+
+.material-icons {
+  font-size: 24px;
+  font-family: 'Material Icons Round', 'Material Icons';  
+  .mat-badge-content {
+    font-family: 'Roboto';
+  }
+}

@@ -1,4 +1,16 @@
 <page>
-  <pre>
-  </pre>
+  <section class="folders" data-title="Folders">
+    <div class="box" *ngFor="let item of bookmarkFolders">
+      <mat-icon>folder</mat-icon>
+      <span>{{ item.title }}</span>
+    </div>
+  </section>
+  <section class="links" data-title="Links">
+    <div class="box" *ngFor="let item of bookmarkLinks">
+      <div class="icon">
+        <img [src]="item.iconUri" alt="Favicon">
+      </div>
+      <span>{{ item.title.slice(0,10) }}</span>
+    </div>
+  </section>
 </page>
