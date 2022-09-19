@@ -16,7 +16,7 @@
   $foreground-base: map.get($foreground, base);
   $bar-color: darken($background-base, 5%);
   
-  app-root {
+  .app-root {
     color: $foreground-base;
     background: $background-base;
   }

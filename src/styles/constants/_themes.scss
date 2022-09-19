@@ -6,39 +6,6 @@
 
 
 
-@mixin set-css-variables {
-    // PRIMARY
-  body {
-    --primary-color: #1976d2;
-    --primary-lighter-color: #bad6f2;
-    --primary-darker-color: #0e59c1;
-    --text-primary-color: #{$light-primary-text};
-    --text-primary-lighter-color: #{$dark-primary-text};
-    --text-primary-darker-color: #{$light-primary-text};
-  }
-
-  // ACCENT
-  body {
-    --accent-color: #8e24aa;
-    --accent-lighter-color: #ddbde6;
-    --accent-darker-color: #711690;
-    --text-accent-color: #{$light-primary-text};
-    --text-accent-lighter-color: #{$dark-primary-text};
-    --text-accent-darker-color: #{$light-primary-text};
-  }
-
-  // WARN
-  body {
-    --warn-color: #ff0000;
-    --warn-lighter-color: #ffb3b3;
-    --warn-darker-color: #ff0000;
-    --text-warn-color: #{$light-primary-text};
-    --text-warn-lighter-color: #{$dark-primary-text};
-    --text-warn-darker-color: #{$light-primary-text};
-  }
-
-}
-
 
 /* CUSTOM COMPONENT THEMES */
 @mixin set-component-themes($theme) {
@@ -65,6 +32,42 @@
 
 
 
+@mixin set-css-variables {
+  
+    // PRIMARY
+  :root {
+    --primary-color: #1976d2;
+    --primary-lighter-color: #bad6f2;
+    --primary-darker-color: #0e59c1;
+    --text-primary-color: #{$light-primary-text};
+    --text-primary-lighter-color: #{$dark-primary-text};
+    --text-primary-darker-color: #{$light-primary-text};
+  }
+
+  // ACCENT
+  :root {
+    --accent-color: #8e24aa;
+    --accent-lighter-color: #ddbde6;
+    --accent-darker-color: #711690;
+    --text-accent-color: #{$light-primary-text};
+    --text-accent-lighter-color: #{$dark-primary-text};
+    --text-accent-darker-color: #{$light-primary-text};
+  }
+
+  // WARN
+  :root {
+    --warn-color: #ff0000;
+    --warn-lighter-color: #ffb3b3;
+    --warn-darker-color: #ff0000;
+    --text-warn-color: #{$light-primary-text};
+    --text-warn-lighter-color: #{$dark-primary-text};
+    --text-warn-darker-color: #{$light-primary-text};
+  }
+
+}
+
+
+
 
 
 
@@ -72,7 +75,6 @@
 
 
 // Specific component overrides, pieces that are not in line with the general theming
-
 // Handle buttons appropriately, with respect to line-height
 .mat-raised-button, .mat-stroked-button, .mat-flat-button {
   padding: 0 1.15em;

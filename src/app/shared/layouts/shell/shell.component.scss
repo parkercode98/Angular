@@ -1,7 +1,7 @@
-@use 'src/styles/mixins' as Mix;
+@use 'src/styles/constants/mixins' as mix;
 
 :host {
-  @include Mix.cmp-host(true);
+  @include mix.cmp-host(true);
   display: flex;
   flex-flow: column nowrap;
 }

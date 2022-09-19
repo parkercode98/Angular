@@ -10,6 +10,7 @@ export class NavbarComponent implements OnInit {
   _title: string;
   navRoutes = NavRoutes;
   modelName: string;
+  height: string;
   
   @Input()
   set title(value: string) {
@@ -18,16 +19,15 @@ export class NavbarComponent implements OnInit {
   get title() {
     return this._title;
   }
+  
+  
 
   constructor(private elem: ElementRef, private rndr: Renderer2) {
-    this.elem = elem.nativeElement;
-    this.rndr.addClass(this.elem, 'navbar');
+    this.rndr.addClass(this.elem.nativeElement, 'navbar');
   }
 
   ngOnInit(): void {
-    setTimeout(() => {
-      this.checkTheme();
-    }, 1);
+    this.height = this.elem.nativeElement.clientHeight.toString();
   }
   
   changeTheme(elemRef: any) {
@@ -46,9 +46,4 @@ export class NavbarComponent implements OnInit {
     console.log(elem, child, isDark)
   }
   
-  checkTheme() {
-    const classArr = document.body.classList;
-    const isLight = classArr.contains('theme-alternate');
-    console.log(isLight)
-  }
 }

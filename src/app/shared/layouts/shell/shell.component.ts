@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, ActivationEnd, NavigationEnd, Router, RouterEvent } from '@angular/router';
+import { ActivationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'shell',
@@ -25,6 +25,14 @@ export class ShellComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+  
+  getStyle(from: any, style: any) {
+    const fromElem = from as HTMLElement;
+    // const toElem = to as HTMLElement;
+    const compStyles = window.getComputedStyle(fromElem);
+    const aStyle = ( compStyles as { [key: string]: any })[style] as string;
+    return aStyle.toString() ?? 'yeah';
   }
 
 }

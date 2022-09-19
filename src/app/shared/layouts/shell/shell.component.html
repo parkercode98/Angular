@@ -1,4 +1,4 @@
-<navbar [title]="routeData?.page"></navbar>
-<main class="main-content">
+<navbar [title]="routeData?.page" #navbar></navbar>
+<main class="main-content" [style.maxHeight]="'calc(100vh - ' + navbar.height + 'px'">
   <ng-content #content></ng-content>
 </main>

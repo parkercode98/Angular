@@ -1,37 +1,60 @@
 @use 'sass:map';
-@use 'styles/mixins' as Mix;
+@use '@angular/material' as mat;
 @use 'styles/functions/functions' as Fnc;
 @use 'styles/debug' as *;
-@use '@angular/material' as mat;
-
 @use 'styles/constants' as *;
 
 @import 'https://fonts.googleapis.com/icon?family=Material+Icons+Round';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
-
-// # Theme  //
+//# Mat Core //
 @include mat.core($fontConfig);
 
 
-//! Theme Init
-@include theme-dark-theme;
 
-.theme-alternate {
-  @include theme-light-theme;
+// ? Adjustable
+// ? Actually whenever the theme changes just change a variable here globaly that changes the current theme ?
+@mixin adjustable($theme) {
+  
+  hr {
+    border: none;
+    outline: none;
+    background: map.get($theme, foreground, base);
+    
+    &.horizontal {
+      width: 100%;
+      height: 1px;
+    }
+    
+    &.vertical {
+      width: 1px;
+      height: 100%;
+    }
+  }
 }
 
 
 
+// # Theme  //
+
+// - Light Theme
+.theme-alternate {
+  @include theme-light-theme;
+  @include adjustable($current-theme)
+}
+
+// - Dark Theme (Default)
+@include theme-dark-theme;
+
+
+// # Theme Sensitive  //
+@include adjustable($theme);
+@include theme-set-css-variables;
+// ===========
 
 
 
-
-
-
-
-
-
+// @include debug-map($current-theme);
 
 
 
@@ -44,19 +67,35 @@
 
 
 //# Globals
-
 //* ========= GLOBAL MIXINS
-@include Mix.NoDefaults;
+@include mix-no-defaults;
+
+* {
+  @include mix-scrollbar($current-theme);
+}
 
 //* ========= GLOBAL TAGS
 html,
 body {
 	height: 100%;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
 
 body {
-	min-width: 100vw;
-	min-height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  /* Backup (100vh) support for Safari bug */
+  min-height: -webkit-fill-available;
+  overflow: hidden;
+  
+  app-root {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
 }
 
 button {
@@ -72,27 +111,17 @@ button {
 }
 
 //* ========= GLOBAL CLASSES
-
 main.main-content {
 	display: block;
 	width: 100%;
 	height: 100%;
-}
-
-//* ========= GLOBAL FONTS
-html,
-body {
-	height: 100%;
-}
-body {
-	font-family: Roboto, 'Helvetica Neue', sans-serif;
+  overflow: hidden;
+  // overscroll-behavior: ;
 }
 
 //* ========= ROOT
 :root {
 	/* CSS Variables */
-	--font-color: white;
-
-	/* Defaults */
-	color: var(--font-color);
+  $primary-map: map.get($current-theme, primary);
+  @include mix-map-to-css-variables($primary-map, theme);
 }

@@ -24,8 +24,6 @@ export class HomeComponent implements OnInit {
     let tbLinks = tbChilds.filter(child => (child.uri != undefined || null || ""))
     this.bookmarkFolders = tbFolders;
     this.bookmarkLinks = tbLinks;
-    
-    // console.log(tbLinks);
   }
 
 }

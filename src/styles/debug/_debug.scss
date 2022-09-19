@@ -1,34 +1,34 @@
 @use '../functions/functions' as Fnc;
-// @use '../../app/shared' as *;
+
+// ============================
+
+// =====
 $debug: '' !default;
+// =====
 
 
-@mixin reveal($selectors...) {
-  @each $selector in $selectors {
-    #{$selector} {
-      border: 1px solid Fnc.random-color();
-    }
-  }
+
+
+// ==== DEBUG FUNCTIONS ====
+@function appendDebug($d: '') {
+  $debug: $debug + '» #{inspect($d)} \A\A' !global;
+  @return $debug;
 }
 
 
-// =============
-// =============
 
-// ==== Debug Functions ====
-@mixin all-debugs {
-  @include navbar.debugs;
-}
-
+// ==== DEBUG MIXINS ====
 @mixin updateOutput($items) {
   body::before {
     content: '#{$items}';
     z-index: 9999;
     position: absolute;
-    width: 60vw;
-    top: 30vh;
+    width: 60vmax;
+    max-width: 85%;
+    max-height: 60vw;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -50%);
     color: rgb(198, 98, 215);
     background-color: #0a0a0a;
     border: 2px solid #c3c3c3;
@@ -36,13 +36,10 @@ $debug: '' !default;
     display: block;
     white-space: pre-line;
     padding: 5vh;
+    overflow-y: scroll;
   }
 }
 
-@function appendDebug($d: '') {
-  $debug: $debug + '» #{inspect($d)} \A\A' !global;
-  @return $debug;
-}
 
 @mixin append($d) {
   $debug: appendDebug($d);
@@ -53,5 +50,16 @@ $debug: '' !default;
 @mixin map($map) {
   @each $item in $map {
     @include append($item); 
+  }
+}
+
+
+
+// ====  DEBUG VISUAL   ====
+@mixin reveal($selectors...) {
+  @each $selector in $selectors {
+    #{$selector} {
+      border: 1px solid Fnc.random-color();
+    }
   }
 }

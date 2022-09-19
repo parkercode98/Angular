@@ -1,8 +1,8 @@
-@use 'sass:map';
-@use 'src/styles/mixins' as Mix;
+
+@use 'src/styles/constants/mixins' as mix;
 
 :host {
-  @include Mix.cmp-host;
+  @include mix.cmp-host;
 }
 
 .navbar {

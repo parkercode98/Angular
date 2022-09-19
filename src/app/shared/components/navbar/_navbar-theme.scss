@@ -14,16 +14,17 @@
   
   $background-base: map.get($background, background);
   $foreground-base: map.get($foreground, base);
+  
   $bar-color: darken($background-base, 5%);
   
-  // @include debug-map($app-bar);
+  // @include debug-map($theme);
   
   .navbar {
     background: $bar-color;
     color: $foreground-base;
     
     div {
-      background: lighten($background-base, 2%);
+      background: darken($background-base, 2%);
     }
   }
   
