@@ -1,6 +1,8 @@
 @use 'sass:map';
 @use 'src/styles/debug' as *;
 @use 'src/styles/core/theming';
+@use 'src/styles/core/typography/typography-utils' as typo-utils;
+
 
 
 @mixin color($theme) {
@@ -17,8 +19,6 @@
   
   $bar-color: darken($background-base, 5%);
   
-  // @include debug-map($theme);
-  
   .navbar {
     background: $bar-color;
     color: $foreground-base;
@@ -30,6 +30,7 @@
   
 }
 
+
 @mixin theme($theme) {
   $color: theming.get-color-config($theme);
   
@@ -37,5 +38,4 @@
     @include color($color);
   }
 }
-
 

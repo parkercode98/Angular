@@ -1,0 +1,12 @@
+@use 'sass:map';
+@use 'typography-utils' as util;
+@use '../../debug' as *;
+
+@mixin set-typographies($config: null) {
+  $font-family: util.font-family($config);
+  
+  *, ::before, ::after {
+    font-family: $font-family;
+  }
+  
+}

@@ -3,12 +3,21 @@
 @use 'styles/functions/functions' as Fnc;
 @use 'styles/debug' as *;
 @use 'styles/constants' as *;
+@use 'styles/core' as core;
 
 @import 'https://fonts.googleapis.com/icon?family=Material+Icons+Round';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
+
 //# Mat Core //
 @include mat.core($fontConfig);
+
+
+// # Typography  //
+@include core.set-typographies($fontConfig);
+
+@include debug-map($fontConfig); 
+
 
 
 
