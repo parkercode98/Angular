@@ -2,11 +2,52 @@
 @use 'typography-utils' as util;
 @use '../../debug' as *;
 
+
+@mixin set-typogs-to-classes($config: null) {
+  @each $key, $props in $config {
+    $class: unquote(".#{$key}"); 
+    #{$class} {
+      @each $attr, $val in $props {
+        #{$attr}: $val;
+      }
+    }
+  }
+}
+
 @mixin set-typographies($config: null) {
   $font-family: util.font-family($config);
   
   *, ::before, ::after {
     font-family: $font-family;
+    color: currentColor;
   }
   
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+  
+  @include set-typogs-to-classes($config);
+  
+  header { @extend .display-1; }
+  
+  h1 { @extend .headline; }
+  
+  h2, strong { @extend .title; }
+  
+  h3 { @extend .subheading-2; }
+  
+  h4 { @extend .subheading-1; }
+  
+  p, span, i { @extend .body-1; text-decoration: none; font-style: normal; }
+  
+  b { @extend .subheading-1; font-size: 1.1rem; }
+  
+  em { @extend .body-1; font-style: normal; text-decoration: none; font-weight: 300;}
+  
+  button { @extend .button; }
+  
+  caption { @extend .caption; }
+  
+  input { @extend .input; }
 }
