@@ -4,4 +4,9 @@
   @include mix.cmp-host(true);
   position: relative;
   z-index: 1;
+  
+  &.scrollable {
+    overflow: hidden;
+    overflow-y: scroll;
+  }
 }

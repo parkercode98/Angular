@@ -23,8 +23,17 @@
     background: $bar-color;
     color: $foreground-base;
     
-    div {
-      background: darken($background-base, 2%);
+    &__container {
+      
+      div:not(.navbar__container-start) {
+        background: darken($background-base, 2%);
+      }
+      
+      &-start {
+        background: var(--accent-color);
+        color: white;
+      }
+      
     }
   }
   

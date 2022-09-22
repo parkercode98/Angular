@@ -13,4 +13,9 @@
       <span>{{ item.title.slice(0,10) }}</span>
     </div>
   </section>
+  <section *loop="5; let i = index">
+    <div>
+      <span>{{ i }}</span>
+    </div>
+  </section>
 </page>

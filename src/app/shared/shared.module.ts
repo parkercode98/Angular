@@ -35,6 +35,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { PageComponent } from './components/page/page.component';
 import { ShellComponent } from './layouts/shell/shell.component';
 import { SpacerComponent } from './components/spacer/spacer.component';
+import { LoopDirective } from './directives/loop.directive';
 
 const modules = [
   CommonModule,
@@ -67,7 +68,8 @@ const components = [
   NavbarComponent, 
   PageComponent,
   FiltersComponent,
-  SpacerComponent
+  SpacerComponent,
+  LoopDirective
 ];
 
 
