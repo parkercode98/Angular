@@ -1,5 +1,5 @@
-
 @use 'src/styles/constants/mixins' as mix;
+@use 'src/styles/extensions' as *;
 
 :host {
   @include mix.cmp-host;
@@ -29,5 +29,10 @@
 
 
 .theme-toggle-container {
-  column-gap: 0px;
+  column-gap: 1ch;
+  
+  mat-icon {
+    @extend %f-c-row;
+    font-size: 1.1rem;
+  }
 }

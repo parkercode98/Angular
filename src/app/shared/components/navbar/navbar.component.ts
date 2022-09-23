@@ -1,5 +1,6 @@
 import { NavRoutes } from '@core/constants/routes';
 import { Component, ElementRef, Input, OnInit, Renderer2 } from '@angular/core';
+import { MatSlideToggleChange } from '@angular/material/slide-toggle';
 
 @Component({
   selector: 'navbar',
@@ -8,8 +9,6 @@ import { Component, ElementRef, Input, OnInit, Renderer2 } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   _title: string;
-  navRoutes = NavRoutes;
-  modelName: string;
   height: string;
   
   @Input()
@@ -20,7 +19,7 @@ export class NavbarComponent implements OnInit {
     return this._title;
   }
   
-  
+  navRoutes = NavRoutes;
 
   constructor(private elem: ElementRef, private rndr: Renderer2) {
     this.rndr.addClass(this.elem.nativeElement, 'navbar');
@@ -30,20 +29,13 @@ export class NavbarComponent implements OnInit {
     this.height = this.elem.nativeElement.clientHeight.toString();
   }
   
-  changeTheme(elemRef: any) {
-    const elem = elemRef as HTMLElement;
-    const child = elem.firstChild as HTMLElement;
-    const isDark = child.classList.contains('mat-checked');
-    if (!isDark) {
-      this.rndr.removeClass(elem, 'dark-theme');
-      this.rndr.addClass(elem, 'light-theme');
+  changeTheme($event: MatSlideToggleChange) {
+    console.log($event.checked)
+    if ($event.checked) {
       this.rndr.addClass(document.body, 'theme-alternate');
     } else {
-      this.rndr.removeClass(elem, 'light-theme')
-      this.rndr.addClass(elem, 'dark-theme');
       this.rndr.removeClass(document.body, 'theme-alternate');
     }
-    console.log(elem, child, isDark)
   }
   
 }
