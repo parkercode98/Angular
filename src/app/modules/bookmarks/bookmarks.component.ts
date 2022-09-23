@@ -8,6 +8,7 @@ interface PurpleChildFlatNode {
   expandable: boolean;
   name: string;
   level: number;
+  uri: string;
 }
 
 @Component({
@@ -21,6 +22,7 @@ export class BookmarksComponent {
       expandable: !!node.children && node.children.length > 0,
       name: node.title,
       level: level,
+      uri: node.uri,
     };
   };
   

@@ -1,3 +1,24 @@
-.mat-tree-node {
-  cursor: pointer;
+
+
+
+
+@mixin theme($theme) {
+  
+  .mat-tree {
+    background: none;
+    
+    &-node {
+      cursor: pointer;
+    }
+    
+    [mattreenodepaddingindent="32"] {
+      cursor: auto;
+    }
+    
+    a {
+      font-style: italic;
+    }
+  }
+  
 }
+
