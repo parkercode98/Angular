@@ -11,6 +11,7 @@
 @mixin set-component-themes($theme) {
   @include comp-navbar-theme($theme);
   @include app-theme($theme); 
+  @include bookmark-theme($theme);
 }
 
 

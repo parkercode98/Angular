@@ -1,1 +1,2 @@
-@forward 'app-theme' as app-* hide color;
+@forward 'app.component.scss' as app-* hide color;
+@forward 'modules';

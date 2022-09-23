@@ -2,7 +2,10 @@
 	<div class="container">
 		<mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
 			<mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding matTreeNodePaddingIndent="32">
-				<a [href]="node.uri" target="_blank">{{ node.name }}</a>
+        <span class="link">
+          <img [src]="node.iconUri" alt="" />
+          <a [href]="node.uri" target="_blank">{{ node.name }}</a>
+        </span>
 			</mat-tree-node>
 
 			<mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding matTreeNodeToggle matTreeNodePaddingIndent="20">

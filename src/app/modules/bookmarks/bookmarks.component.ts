@@ -9,6 +9,7 @@ interface PurpleChildFlatNode {
   name: string;
   level: number;
   uri: string;
+  iconUri: string,
 }
 
 @Component({
@@ -23,6 +24,7 @@ export class BookmarksComponent {
       name: node.title,
       level: level,
       uri: node.uri,
+      iconUri: node.iconUri,
     };
   };
   

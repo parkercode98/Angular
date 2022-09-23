@@ -1,8 +1,17 @@
-
-
+@use 'src/styles/core/theming';
+@use 'src/styles/extensions' as *;
 
 
 @mixin theme($theme) {
+  $config: theming.get-color-config($theme);
+  $primary: map-get($config, primary);
+  $accent: map-get($config, accent);
+  $warn: map-get($config, warn);
+  $is-dark: map-get($config, is-dark);
+  $foreground: map-get($config, foreground);
+  $background: map-get($config, background);
+  
+  $link-color: lighten(map-get($map: $primary, $key: main), 12%);
   
   .mat-tree {
     background: none;
@@ -14,11 +23,29 @@
     [mattreenodepaddingindent="32"] {
       cursor: auto;
     }
+  }
+  
+  .link {
+    @extend %f-c-row;
+    column-gap: 2ch;
+    
+    img {
+      width: 1rem;
+      aspect-ratio: 1 / 1;
+    }
     
     a {
       font-style: italic;
+      color: $link-color;
+      
+      &:visited {
+        color: map-get($map: $accent, $key: main);
+      }
+      
+      &:hover {
+        color: lighten($link-color, 5%);
+      }
     }
   }
   
 }
-
