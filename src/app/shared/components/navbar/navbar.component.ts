@@ -1,11 +1,12 @@
-import { NavRoutes } from '@core/constants/routes';
-import { Component, ElementRef, Input, OnInit, Renderer2 } from '@angular/core';
+import { Component, ElementRef, HostBinding, Input, OnInit, Renderer2 } from '@angular/core';
 import { MatSlideToggleChange } from '@angular/material/slide-toggle';
+import { NavRoutes } from '@core/constants/routes';
+import { SidemenuService } from '@core/services/comp-services/sidemenu/sidemenu.service';
 
 @Component({
   selector: 'navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss','./_navbar-theme.scss']
+  styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
   _title: string;
@@ -19,11 +20,11 @@ export class NavbarComponent implements OnInit {
     return this._title;
   }
   
+  @HostBinding('class') class = 'navbar';
+  
   navRoutes = NavRoutes;
 
-  constructor(private elem: ElementRef, private rndr: Renderer2) {
-    this.rndr.addClass(this.elem.nativeElement, 'navbar');
-  }
+  constructor(private elem: ElementRef, private rndr: Renderer2, private sidemenuService: SidemenuService) {}
 
   ngOnInit(): void {
     this.height = this.elem.nativeElement.clientHeight.toString();
@@ -36,6 +37,10 @@ export class NavbarComponent implements OnInit {
     } else {
       this.rndr.removeClass(document.body, 'theme-alternate');
     }
+  }
+  
+  toggleSideMenu() {
+    this.sidemenuService.toggle();
   }
   
 }

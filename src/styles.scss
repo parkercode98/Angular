@@ -76,6 +76,10 @@ button {
 	cursor: pointer;
 }
 
+ul {
+  list-style: none;
+}
+
 //* ========= GLOBAL CLASSES
 main.main-content {
 	display: block;
@@ -86,7 +90,7 @@ main.main-content {
 }
 
 //* ========= ROOT
-@include theme-set-css-variables;
+// @include theme-set-css-variables;
 :root {
 	/* CSS Variables */
   $primary-map: map.get($current-theme, primary);

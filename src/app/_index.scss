@@ -1,2 +1,3 @@
 @forward 'app.component.scss' as app-* hide color;
-@forward 'modules';
+@forward 'modules' as module-*;
+@forward 'shared' as shared-*;

@@ -1,31 +1,22 @@
 <div class="navbar__container">
-	<div class="navbar__container-start">
-		<b>{{ title }}</b>
-	</div>
   
-  <spacer type="horizontal"></spacer>
-  
-  <div class="theme-toggle-container">
-    <mat-icon>{{ toggle.checked ? 'dark_mode' : 'light_mode' }}</mat-icon>
-    <mat-slide-toggle class="theme-toggle" (change)="changeTheme($event)" #toggle></mat-slide-toggle>
-  </div>
-  
-	<div class="navbar__container-end">
-		<button mat-icon-button [matMenuTriggerFor]="menuRef">
+	<div class="navbar__container-menu">
+		<button mat-icon-button (click)="toggleSideMenu()">
 			<mat-icon>menu</mat-icon>
 		</button>
-		<mat-menu #menuRef="matMenu">
-			<div class="nav-item" *ngFor="let data of navRoutes">
-				<a
-					mat-menu-item
-					class="nav-link"
-          [routerLink]="[data.path]" 
-          routerLinkActive="router-link-active"
-          [routerLinkActiveOptions]="{exact: true}"
-				> 
-					{{ data.title }}
-				</a>
-			</div>
-		</mat-menu>
 	</div>
+
+	<div class="navbar__container-header">
+		<b>{{ title }}</b>
+	</div>
+
+	<spacer type="horizontal"></spacer>
+
+	<div class="navbar__container-end">
+		<div class="theme-toggle-container">
+			<mat-icon>{{ toggle.checked ? 'dark_mode' : 'light_mode' }}</mat-icon>
+			<mat-slide-toggle class="theme-toggle" (change)="changeTheme($event)" #toggle></mat-slide-toggle>
+		</div>
+	</div>
+  
 </div>

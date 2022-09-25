@@ -1,38 +1,77 @@
+@use 'sass:map';
 @use 'src/styles/constants/mixins' as mix;
 @use 'src/styles/extensions' as *;
+@use 'src/styles/debug' as *;
+@use 'src/styles/core/theming';
+@use 'src/styles/core/typography/typography-utils' as typo-utils;
+
 
 :host {
   @include mix.cmp-host;
 }
 
-.navbar {
-  &__container {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row nowrap;
-    width: 100%;
-    height: clamp(55px, 3.5vw, 64px);
-    background: transparent;
+@mixin theme($theme) {
+  $config: theming.get-color-config($theme);
+  $primary: map.get($config, primary);
+  $accent: map.get($config, accent);
+  $warn: map.get($config, warn);
+  $is-dark: map.get($config, is-dark);
+  $foreground: map.get($config, foreground);
+  $background: map.get($config, background);
+  
+  $background-base: map.get($background, background);
+  $foreground-base: map.get($foreground, base);
+  
+  $bar-color: darken($background-base, 5%);
+  
+  .navbar {
+    background: $bar-color;
+    color: $foreground-base;
     
-    div {
-      display: inline-flex;
-      justify-content: center;
+    &__container {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
       align-items: center;
-      width: fit-content;
-      height: 100%;
-      padding: 0 2ch;
+      flex-flow: row nowrap;
+      width: 100%;
+      height: clamp(55px, 3.5vw, 64px);
+      background: transparent;
+            
+      div {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        height: 100%;
+        padding: 0 2ch;
+      }
+      
+      div:not(.navbar__container-header) {
+        background: darken($background-base, 2%);
+      }
+      
+      &-header {
+        background: var(--accent-color);
+        color: white;
+      }
+      
+      &-end {
+        
+        .theme-toggle-container {
+          padding: 0 0;
+          column-gap: 1ch;
+          
+          mat-icon {
+            @extend %f-c-row;
+            font-size: 1.1rem;
+          }
+        }
+        
+      }
+      
     }
   }
 }
 
 
-.theme-toggle-container {
-  column-gap: 1ch;
-  
-  mat-icon {
-    @extend %f-c-row;
-    font-size: 1.1rem;
-  }
-}

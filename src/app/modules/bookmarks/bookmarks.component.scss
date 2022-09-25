@@ -13,6 +13,9 @@
   
   $link-color: lighten(map-get($map: $primary, $key: main), 12%);
   
+  page {
+    padding: 2ch;
+  }
   
   .mat-tree {
     background: none;

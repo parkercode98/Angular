@@ -1,0 +1,28 @@
+<div class="sidemenu-wrapper" [@slideInRight]="wrapperAnim">
+  <div class="container">
+
+    <section class="start">
+      <h1>Coding</h1>
+    </section>
+  
+    <section class="mid">
+      <ul>
+        <li class="nav-item" *ngFor="let data of navRoutes">
+          <a mat-raised-button class="nav-link mat-elevation-z4" 
+            [routerLink]="[data.path]" 
+            routerLinkActive="router-link-active" 
+            [routerLinkActiveOptions]="{ exact: true }"
+            (click)="sidemenuService.toggle()"
+          >
+            {{ data.title }}
+          </a>
+        </li>
+      </ul>
+    </section>
+  
+    <section class="end">
+      <div class="box"></div>
+    </section>
+  
+  </div>
+</div>

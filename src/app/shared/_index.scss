@@ -1,1 +1,2 @@
-@forward 'components/index.import' as comp-*;
+@forward 'components' as comp-*;
+@forward 'layouts' as layout-*;

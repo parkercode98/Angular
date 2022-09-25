@@ -1,0 +1,110 @@
+@use 'src/styles/core/theming';
+
+:host {
+  position: relative;
+  display: block;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+@mixin theme($theme) {
+  $config: theming.get-color-config($theme);
+  $primary: map-get($config, primary);
+  $accent: map-get($config, accent);
+  $warn: map-get($config, warn);
+  $is-dark: map-get($config, is-dark);
+  $foreground: map-get($config, foreground);
+  $background: map-get($config, background);
+  
+  $background-base: map-get($background, background);
+  $foreground-base: map-get($foreground, base);
+  
+  $bar-color: darken($background-base, 5%);
+  
+  $border-radius: 20px;
+  $gutter: 20px;
+  
+  .sidemenu {
+    
+    &-wrapper {
+      position: absolute;
+      top: 0;
+      right: -$gutter;
+      bottom: 0;
+      left: 0;
+      border-radius: $border-radius 0 0 $border-radius;
+      
+      @if $is-dark {
+        background: lighten($background-base, 25%);
+      } @else {
+        background: darken($background-base, 20%);
+      }
+      overflow: hidden;
+    }
+    
+    .container {
+      position: relative;
+      display: flex;
+      flex-flow: column nowrap;
+      width: 100%;
+      height: 100%;
+      padding-right: $gutter;
+      overflow: hidden;
+      
+      // &::after {
+      //   content: '';
+      //   position: absolute;
+      //   top: 0;
+      //   right: $gutter;
+      //   bottom: 0;
+      //   left: 0;
+      //   z-index: 1;
+      // }
+    }
+    
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      
+      &:nth-of-type(1) {
+        flex: 1;
+      }
+      
+      &:nth-of-type(2) {
+        flex: 2;
+      }
+      
+      &:nth-of-type(3) {
+        flex: 1;
+      }
+      
+    }
+    
+    ul {
+      width: 100%;
+      height: 100%;
+      padding: 1ch 2ch;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column nowrap;
+      row-gap: 2ch;
+      
+      li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-flow: row nowrap;
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+// [@flipIn]="isSideMenu"
+// (@flipIn.start)="animationStart($event)"
+// (@flipIn.done)="animationDone($event)" 

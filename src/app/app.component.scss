@@ -5,6 +5,9 @@
 
 :host {
   @include Mix.cmp-host(true);
+  position: relative;
+  display: flex;
+  flex-flow: row;
 }
 
 
@@ -23,7 +26,7 @@
   
   .app-root {
     color: $foreground-base;
-    background: $background-base;
+    background: $bar-color;
   }
 }
 

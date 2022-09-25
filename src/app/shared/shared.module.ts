@@ -26,9 +26,6 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 
-
-
-
 /* Components */
 import { FiltersComponent } from './components/filters/filters.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -36,6 +33,7 @@ import { PageComponent } from './components/page/page.component';
 import { ShellComponent } from './layouts/shell/shell.component';
 import { SpacerComponent } from './components/spacer/spacer.component';
 import { LoopDirective } from './directives/loop.directive';
+import { SidemenuComponent } from './components/sidemenu/sidemenu.component';
 
 const modules = [
   CommonModule,
@@ -69,7 +67,8 @@ const components = [
   PageComponent,
   FiltersComponent,
   SpacerComponent,
-  LoopDirective
+  LoopDirective,
+  SidemenuComponent
 ];
 
 

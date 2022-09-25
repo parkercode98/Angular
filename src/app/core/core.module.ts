@@ -1,3 +1,4 @@
+import { SidemenuService } from './services/comp-services/sidemenu/sidemenu.service';
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 // import { AuthGuard } from './guard/auth.guard';
@@ -19,6 +20,7 @@ const customServices = [
   // AuthGuard,
   // NoAuthGuard,
   // AuthService,
+  SidemenuService
 ];
 
 @NgModule({
@@ -27,7 +29,7 @@ const customServices = [
     CommonModule
   ],
   providers: [
-    // ...customServices,
+    ...customServices,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: TokenInterceptor,

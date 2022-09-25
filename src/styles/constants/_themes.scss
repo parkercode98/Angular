@@ -1,5 +1,5 @@
 @use '@angular/material' as mat;
-
+@use 'mixins' as mix;
 @use 'variables' as *;
 @use '../../app/shared' as *;
 @use '../../app' as *;
@@ -7,33 +7,43 @@
 
 
 
-/* CUSTOM COMPONENT THEMES */
-@mixin set-component-themes($theme) {
-  @include comp-navbar-theme($theme);
-  @include app-theme($theme); 
-  @include bookmark-theme($theme);
+/* Shared Themes */
+@mixin shared-themes($theme) {
+  @include shared-comp-navbar-theme($theme);
+  @include shared-comp-sidemenu-theme($theme);
+  @include shared-layout-shell-theme($theme);
 }
 
 
-/* Dark Theme */
-@mixin dark-theme {
-  @include mat.all-component-themes($theme);
-  @include set-component-themes($theme);
-  $current-theme: $theme !global;
-  $current-background: $dark-background !global;
-}
-
-/* Light Theme */
-@mixin light-theme {
-  @include mat.all-component-themes($altTheme);
-  @include set-component-themes($altTheme);
-  $current-theme: $altTheme !global;
-  $current-background: $light-background !global;
+/* Module Themes */
+@mixin module-themes($theme) {
+  @include module-bookmark-theme($theme);
 }
 
 
+/* CUSTOM THEMES */
+@mixin set-themes($theme) {
+  @include app-theme($theme);
+  @include shared-themes($theme);
+  @include module-themes($theme);
+}
 
-@mixin set-css-variables {
+
+@mixin set-css-variables($theme) {
+  $config: $theme;
+  $primary: map-get($config, primary);
+  $accent: map-get($config, accent);
+  $warn: map-get($config, warn);
+  $is-dark: map-get($config, is-dark);
+  $foreground: map-get($config, foreground);
+  $background: map-get($config, background);
+  
+  $background-base: map-get($background, background);
+  $foreground-base: map-get($foreground, base);
+  
+  :root {
+    @include mix.map-to-css-variables($background, background);
+  }
   
     // PRIMARY
   :root {
@@ -67,6 +77,24 @@
 
 }
 
+
+/* Dark Theme */
+@mixin dark-theme {
+  @include mat.all-component-themes($theme);
+  @include set-themes($theme);
+  @include set-css-variables($theme);
+  $current-theme: $theme !global;
+  $current-background: $dark-background !global;
+}
+
+/* Light Theme */
+@mixin light-theme {
+  @include mat.all-component-themes($altTheme);
+  @include set-themes($altTheme);
+  @include set-css-variables($altTheme);
+  $current-theme: $altTheme !global;
+  $current-background: $light-background !global;
+}
 
 
 
