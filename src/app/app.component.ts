@@ -1,4 +1,4 @@
-import { Component, HostBinding, Input, OnInit } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,10 +7,29 @@ import { Component, HostBinding, Input, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'Coding';
+  @HostBinding("class") class = 'app-root';
   
-  
-  @HostBinding("class.app-root")
+  debugContent: string;
   
   ngOnInit(): void {
+    this.getDebugContent();
   }
+  
+  getDebugContent() {
+    let debugContent = window.getComputedStyle(document.body, '::before')?.['content'] ?? null;
+    if (debugContent == 'none') {
+      debugContent = null;
+    }
+    if (debugContent != null) {
+      debugContent = replaceAll(debugContent, '\\a', '\n');
+      debugContent = replaceAll(debugContent, '"', '');
+      this.debugContent = debugContent;
+    }
+  }
+  
+}
+
+
+function replaceAll(string:string, search: string, replace: string) {
+  return string.split(search).join(replace);
 }

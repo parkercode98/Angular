@@ -1,64 +1,62 @@
-import { trigger, state, style, transition, animate } from '@angular/animations';
-import { Component, OnInit } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
+import { catchError, of, switchMap, Observable } from 'rxjs';
+import { fromFetch } from 'rxjs/fetch';
 
-const animation = '0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940)';
-
-const swingIn = {
-  enter: {
-    transform: 'rotateY(100deg)',
-    transformOrigin: 'left'
-  },
-  leave: {
-    transform: 'rotateY(0)',
-    transformOrigin: 'left'
-  },
-  transition: '0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275)'
-}
 
 @Component({
-  selector: 'home-page',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
-  animations: [
-    trigger('sidemenu', [
-      state('true', style({ width: '12vw' })),
-      state('false', style({ width: '0' })),
-      transition('*=>*', [ animate(animation) ]),
-    ]),
-    trigger('flipIn', [
-      state('true', style({ transform: 'translateX(0) rotateY(0)' })),
-      state('false', style({ transform: 'translateX(-150px) rotateY(90deg)' })),
-      transition('*=>*', [ animate(animation) ]),
-    ]),
-    trigger('swingIn', [
-      state('true', style(swingIn.leave)),
-      state('false', style(swingIn.enter)),
-      transition('*=>*', animate(swingIn.transition)),
-    ])
-  ]
+	selector: 'home-page',
+	templateUrl: './home.component.html',
+	styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
+	@HostBinding('class') class = 'home';
   
-  isBox: boolean = false;
-  isFlip: boolean = false;
-  
-  constructor() {}
+  superheroData$: Observable<any>;
 
-  ngOnInit(): void {
-  }
-  
-  animateBox() {
-    const state = !this.isBox;
-    if (state) {
-      this.isBox = state;
-      setTimeout(() => {
-        this.isFlip = true;
-      }, 200);
-    } else {
-      this.isFlip = false;
-      setTimeout(() => {
-        this.isBox = state;
-      }, 200);
+	constructor() {}
+
+	ngOnInit(): void {}
+
+	findSuperHero(value: string) {
+		if (value) {
+			this.superHeroApi(value);
+		}
+	}
+
+	superHeroApi(value: string) {
+    if (!value) {
+      value = 'Spiderman';
     }
-  }
+    
+		const options = {
+			method: 'GET',
+			headers: {
+				'X-RapidAPI-Key': '6790a647c5msh63e1d29d286d149p195629jsn4c4af69e8471',
+				'X-RapidAPI-Host': 'superhero-search.p.rapidapi.com',
+			},
+		};
+
+		const data$ = fromFetch(`https://superhero-search.p.rapidapi.com/api/?hero=${value}`, options)
+    .pipe(
+			switchMap((response) => {
+				if (response.ok) {
+					// OK return data
+					return response.json();
+				} else {
+					// Server is returning a status requiring the client to try something else.
+					return of({ error: true, message: `Error ${response.status}` });
+				}
+			}),
+			catchError((err) => {
+				// Network or other error, handle appropriately
+				console.error(err);
+				return of({ error: true, message: err.message });
+			})
+		);
+
+		data$.subscribe({
+			next: (result) => {this.superheroData$ = result; console.log(result)},
+			complete: () => console.log('done'),
+		});
+	}
 }

@@ -1,12 +1,32 @@
 <page>
-  
-  <div class="container">
-    <div class="box" [@sidemenu]="isBox">
-      <div class="flipper" 
-        [@flipIn]="isFlip"
-      ></div>
-    </div>
-    <button mat-raised-button type="button" (click)="animateBox()">Animate</button>
-  </div>
-  
+	<h1>Home Page</h1>
+
+	<div class="container">
+    
+		<section>
+			<div class="box">
+        <div class="input-field">
+          <label>Superhero</label>
+          <span>
+            <input class="input-outline" placeholder="Spiderman" onEnter #sh/>
+            <button mat-raised-button type="button" (click)="findSuperHero(sh.value)">Find</button>
+          </span>
+        </div>
+			</div>
+      
+			<div class="box">
+        <pre>{{ superheroData$ | json }}</pre>
+      </div>
+		</section>
+
+		<section>
+			<div class="box"></div>
+			<div class="box"></div>
+		</section>
+
+		<section>
+			<div class="box"></div>
+			<div class="box"></div>
+		</section>
+	</div>
 </page>

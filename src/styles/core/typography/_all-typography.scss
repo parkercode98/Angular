@@ -49,5 +49,17 @@
   
   caption { @extend .caption; }
   
-  input { @extend .input; }
+  input {
+    @extend .input;
+    letter-spacing: normal;
+    line-height: normal;
+    
+    &::placeholder {
+      font-family: $font-family;
+      letter-spacing: normal;
+      line-height: normal;
+    }
+  }
+  
+  fieldset {all: unset;}
 }

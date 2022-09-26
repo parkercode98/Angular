@@ -18,6 +18,7 @@
 /* Module Themes */
 @mixin module-themes($theme) {
   @include module-bookmark-theme($theme);
+  @include module-home-theme($theme);
 }
 
 

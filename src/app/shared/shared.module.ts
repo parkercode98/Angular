@@ -24,6 +24,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatInputModule } from '@angular/material/input';
 
 
 /* Components */
@@ -34,6 +35,7 @@ import { ShellComponent } from './layouts/shell/shell.component';
 import { SpacerComponent } from './components/spacer/spacer.component';
 import { LoopDirective } from './directives/loop.directive';
 import { SidemenuComponent } from './components/sidemenu/sidemenu.component';
+import { OnEnterDirective } from './directives/on-enter.directive';
 
 const modules = [
   CommonModule,
@@ -57,8 +59,9 @@ const modules = [
   MatProgressSpinnerModule,
   MatRadioModule,
   MatExpansionModule,
+  MatSlideToggleModule,
+  MatInputModule,
   RouterModule,
-  MatSlideToggleModule
 ];
 
 const components = [
@@ -68,6 +71,7 @@ const components = [
   FiltersComponent,
   SpacerComponent,
   LoopDirective,
+  OnEnterDirective,
   SidemenuComponent
 ];
 

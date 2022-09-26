@@ -71,13 +71,19 @@ button {
 	align-items: center;
 	outline: none;
 	border: none;
-	background: unset;
+  background: unset;
 	color: currentColor;
 	cursor: pointer;
 }
 
 ul {
   list-style: none;
+}
+
+input {
+  background: unset;
+  border: unset;
+  outline: unset;
 }
 
 //* ========= GLOBAL CLASSES

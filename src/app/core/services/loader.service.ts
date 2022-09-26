@@ -8,7 +8,7 @@ export class LoaderService {
   
   public isLoading: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
 
-  constructor() { }
+  constructor() {}
   
   simulateLoad(state: 'on' | 'off') {
     if (state == 'on') {

@@ -20,3 +20,7 @@
 	</div>
   
 </div>
+
+<div *ngIf="loader.isLoading | async" class="progress-loader">
+  <mat-progress-bar mode="indeterminate" color="accent"></mat-progress-bar>
+</div>

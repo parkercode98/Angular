@@ -25,6 +25,7 @@
   $bar-color: darken($background-base, 5%);
   
   .navbar {
+    position: relative;
     background: $bar-color;
     color: $foreground-base;
     
@@ -70,6 +71,13 @@
         
       }
       
+    }
+    
+    .progress-loader {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
     }
   }
 }
